@@ -1,0 +1,80 @@
+methodology,title,citations,accuracy,date,proceeding,metric
+EA-LSS,EA-LSS: Edge-aware Lift-splat-shot Framework for 3D BEV Object Detection,27,0.78,2023-03-16,,NDS
+MegFusion,,2,0.77,2022-10-17,,NDS
+MMFusion-e,,0,0.77,2022-11-21,,NDS
+DeepInteraction-e,,141,0.76,2022-06-27,,NDS
+BEVFusion-e,BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation,エラー,0.76,2022-06-03,,NDS
+DeepInteraction-large,,141,0.76,2022-06-26,,NDS
+RacoonPower,,0,0.76,2022-03-31,,NDS
+MSMDFusion-TTA,,引用情報が見つかりません,0.75,2023-02-01,,NDS
+FusionVPE,,3,0.75,2022-01-13,,NDS
+DAA,,157,0.75,2022-03-17,,NDS
+FocalFormer3D-F,FocalFormer3D : Focusing on Hard Instance for 3D Object Detection,60,0.75,2023-08-08,,NDS
+CenterPoint-Fusion,,エラー,0.75,2021-05-25,,NDS
+UniTR,UniTR: A Unified and Efficient Multi-Modal Transformer for Bird's-Eye-View Representation,エラー,0.75,2023-08-15,iccv-2023-1,NDS
+ADS-TEAM,,エラー,0.75,2022-08-11,,NDS
+MEFormer,Robust Multimodal 3D Object Detection via Modality-Agnostic Decoding and Proximity-based Modality Ensemble,エラー,0.74,2024-07-27,,NDS
+SparseFusion,SparseFusion: Fusing Multi-Modal Sparse Representations for Multi-Sensor 3D Object Detection,203,0.74,2023-02-26,iccv-2023-1,NDS
+Utrans-Fusion,,引用情報が見つかりません,0.74,2022-11-02,,NDS
+YZLFusion,,196,0.74,2022-09-04,,NDS
+ChangYuan,,1269,0.74,2023-03-02,,NDS
+BEVFusion-base,,57,0.74,2022-10-08,,NDS
+FocalFormer3D-TTA,FocalFormer3D : Focusing on Hard Instance for 3D Object Detection,8,0.74,2023-08-08,,NDS
+PAI3D,PAI3D: Painting Adaptive Instance-Prior for 3D Object Detection,6,0.74,2021-12-29,,NDS
+LargeKernel-F,,2,0.74,2022-06-16,,NDS
+VXTR-tta,,引用情報が見つかりません,0.74,2022-11-18,,NDS
+FocalSparseCNN,,258,0.74,2021-11-14,,NDS
+test333,,0,0.73,2022-12-20,,NDS
+SemanticBEVFusion,SemanticBEVFusion: Rethink LiDAR-Camera Fusion in Unified Bird's-Eye View Representation for 3D Object Detection,1,0.73,2022-11-07,,NDS
+xpnet,,1,0.73,2023-03-02,,NDS
+3D Dual-Fusion_T,3D Dual-Fusion: Dual-Domain Dual-Query Camera-LiDAR Fusion for 3D Object Detection,1,0.73,2022-11-18,,NDS
+3D Dual-Fusion_T,,1,0.73,2023-02-13,,NDS
+DeepInteraction-base,,141,0.73,2022-05-18,,NDS
+yuhahad,,10,0.73,2022-12-14,,NDS
+ADLab-BEVFusion-pure,,引用情報が見つかりません,0.73,2022-10-03,,NDS
+Deeplearner,,157,0.73,2022-11-30,,NDS
+MSMDFusion,MSMDFusion: Fusing LiDAR and Camera at Multiple Scales with Multi-Depth Seeds for 3D Object Detection,90,0.73,2022-08-10,cvpr-2023-1,NDS
+SJTU2,,2,0.73,2022-11-11,,NDS
+PCIE,,294,0.73,2022-03-24,,NDS
+DAA AVP,,132,0.73,2021-07-30,,NDS
+LinK,LinK3D: Linear Keypoints Representation for 3D LiDAR Point Cloud,14731,0.73,2022-10-31,,NDS
+FocalFormer3D-L,FocalFormer3D : Focusing on Hard Instance for 3D Object Detection,60,0.73,2023-08-08,,NDS
+RLVNet,,0,0.73,2022-02-27,,NDS
+ADS-FUSION,,2,0.73,2022-06-03,,NDS
+SphereFormer,,147,0.73,2022-11-11,,NDS
+MDRNet-L,,10,0.73,2022-09-27,,NDS
+VPFusion,,6,0.73,2023-03-01,,NDS
+MGTANet,MGTANet: Encoding Sequential LiDAR Points Using Long Short-Term Motion-Guided Temporal Attention for 3D Object Detection,22,0.73,2022-08-18,,NDS
+DSVT,DSVT: Dynamic Sparse Voxel Transformer with Rotated Sets,115,0.73,2023-01-15,cvpr-2023-1,NDS
+FBMNet (Ours),Multi-Modal 3D Object Detection by Box Matching,0,0.721,2023-05-12,,NDS
+bevfusion-re,,引用情報が見つかりません,0.72,2022-08-24,,NDS
+GTFS,,134,0.72,2022-04-01,,NDS
+BEVFusion,BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation,893,0.72,2022-05-16,,NDS
+TransFusion,TransFusion: Robust LiDAR-Camera Fusion for 3D Object Detection with Transformers,1169,0.72,2021-10-19,cvpr-2022-1,NDS
+Leapmotor_huhaotian,,引用情報が見つかりません,0.72,2023-02-17,,NDS
+MixFusion,,16,0.72,2022-09-21,,NDS
+asdasdzz,,引用情報が見つかりません,0.72,2022-11-16,,NDS
+smallrot_noflip,,引用情報が見つかりません,0.72,2022-11-03,,NDS
+VirConv,,148,0.72,2023-01-25,,NDS
+FusionPainting,FusionPainting: Multimodal Fusion with Adaptive Attention for 3D Object Detection,203,0.72,2021-05-08,,NDS
+SJTU-VISION,,引用情報が見つかりません,0.72,2022-03-15,,NDS
+q2rdasdsad1,,引用情報が見つかりません,0.72,2022-11-11,,NDS
+VFF,,61,0.72,2021-11-13,,NDS
+DCAN,,774,0.72,2021-07-15,,NDS
+LidarMultiNet,"LidarMultiNet: Unifying LiDAR Semantic Segmentation, 3D Object Detection, and Panoptic Segmentation in a Single Multi-task Network",78,0.72,2022-07-22,,NDS
+yangfan,,280,0.71,2022-11-15,,NDS
+DS VinFast,,エラー,0.71,2022-10-21,,NDS
+3D Dual-Fusion,3D Dual-Fusion: Dual-Domain Dual-Query Camera-LiDAR Fusion for 3D Object Detection,27,0.71,2022-10-18,,NDS
+spacvpr1,,引用情報が見つかりません,0.71,2022-11-10,,NDS
+Chaokang_Jiang,,エラー,0.71,2023-01-19,,NDS
+Convoy,,エラー,0.71,2022-05-13,,NDS
+UVTR-Multimodality,,エラー,0.71,2022-05-16,,NDS
+MoCa (MMDet3D),,エラー,0.71,2020-12-09,,NDS
+wilfred zaha,,0,0.71,2022-10-12,,NDS
+picolo,,エラー,0.71,2022-09-26,,NDS
+SJTU_VVISION,,エラー,0.71,2022-06-07,,NDS
+test4444,,エラー,0.71,2022-12-22,,NDS
+9541,,2906,0.71,2022-12-14,,NDS
+SJTU AI Institute and Noah CV Lab,,エラー,0.71,2020-11-12,,NDS
+CenterPoint,Center-based 3D Object Detection and Tracking,1904,0.71,2020-12-08,cvpr-2021-1,NDS
+Damo,,エラー,0.71,2021-09-30,,NDS
