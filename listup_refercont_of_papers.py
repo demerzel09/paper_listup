@@ -4,10 +4,10 @@ import time
 from paperswithcode import PapersWithCodeClient
 from scholarly import scholarly, ProxyGenerator
 
-# キャッシュを有効化
-pg = ProxyGenerator()
-pg.FreeProxies() #.Cache()
-scholarly.use_proxy(pg)
+# # キャッシュを有効化
+# pg = ProxyGenerator()
+# pg.FreeProxies() #.Cache()
+# scholarly.use_proxy(pg)
 
 # タスクIDの取得（'3d-object-detection'は仮のIDです。実際のIDを確認してください）
 # task_id = '3d-object-detection'
@@ -223,7 +223,10 @@ def get_evaluate_results(client, evaluation_id):
             items_per_page=10
         ) 
     except Exception as ex:
+        print(f"Error type: {type(ex)}")
         print(f"Error get_evaluate_results() = {ex}")
+        if hasattr(ex, 'response'):
+            print(f"Error response: {ex.response}")
         return None
 
     page = 1
