@@ -86,7 +86,9 @@ def output_csv(client, task_id, dataset_id):
 
     # タスクに関連する論文のリストを取得
     papers = get_task_paper_results(client, task_id=task_id)
+    time.sleep(1.0)
     dataset_eval_list = client.dataset_evaluation_list(dataset_id)
+    time.sleep(1.0)
 
     evaluation_id = "not_found"
     for result in dataset_eval_list.results:
@@ -109,6 +111,7 @@ def output_csv(client, task_id, dataset_id):
     eval_results = get_evaluate_results(client, evaluation_id)
     if eval_results is None:
         return
+        
     print(f"取得したresultsの件数: {len(eval_results)}")
 
     # 既に処理済みの論文タイトルを保持するセット
@@ -213,18 +216,18 @@ def output_csv(client, task_id, dataset_id):
 
 def get_evaluate_results(client, evaluation_id):
     all_results = []
-    page = 1
-    items_per_page = 200  # デフォルト値
     try:
         _page = client.evaluation_result_list(
             evaluation_id=evaluation_id,
-            page=page,
-            items_per_page=items_per_page
+            page=1,
+            items_per_page=10
         ) 
     except Exception as ex:
         print(f"Error get_evaluate_results() = {ex}")
         return None
 
+    page = 1
+    items_per_page = 200  # デフォルト値
     _count = _page.count
    
     while len(all_results) < _count:
@@ -248,15 +251,15 @@ def get_evaluate_results(client, evaluation_id):
 
 def get_task_paper_results(client, task_id):
     all_results = []
-    page = 1
-    items_per_page = 200  # デフォルト値
 
     _page = client.task_paper_list(
         task_id=task_id,
-        page=page,
-        items_per_page=items_per_page
+        page=1,
+        items_per_page=10
     ) 
 
+    page = 1
+    items_per_page = 200  # デフォルト値
     _count = _page.count
    
     while len(all_results) < _count:
