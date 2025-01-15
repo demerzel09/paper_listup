@@ -175,6 +175,7 @@ def output_csv(client, task_id, dataset_id):
             # 引用数の取得
             if citations is None or citations=='エラー':
                 try:
+                    time.sleep(5.0)
                     keyword = paper_title if paper_title is not None else methodology
                     search_query = scholarly.search_pubs(keyword)
                     paper_scholarly = next(search_query, None)
@@ -209,7 +210,7 @@ def output_csv(client, task_id, dataset_id):
                 #writer.writerow({'title': title, 'citations': citations, 'accuracy{}': accuracy})
                 writer.writerow({'methodology': methodology, 'title': paper_title, 'citations': citations, 'accuracy': accuracy, 'date': evaluated_on, 'proceeding': proceeding ,'metric': best_metric})
                 csvfile.flush()  # データを即時に書き込む
-                time.sleep(1.5)
+                time.sleep(0.1)
                             
             except Exception as e:
                 print(f"精度の取得中にエラーが発生しました: {e}")
@@ -248,7 +249,7 @@ def get_evaluate_results(client, evaluation_id):
         
         all_results.extend(_page.results)
         page += 1
-        time.sleep(1.5)
+        time.sleep(2.0)
         
     return all_results
 
@@ -279,7 +280,7 @@ def get_task_paper_results(client, task_id):
              break
         all_results.extend(_page.results)
         page += 1
-        time.sleep(1.5)
+        time.sleep(2.0)
     
     return all_results
 
