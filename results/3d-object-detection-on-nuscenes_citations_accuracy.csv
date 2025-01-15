@@ -78,3 +78,17 @@ test4444,,エラー,0.71,2022-12-22,,NDS
 SJTU AI Institute and Noah CV Lab,,エラー,0.71,2020-11-12,,NDS
 CenterPoint,Center-based 3D Object Detection and Tracking,1904,0.71,2020-12-08,cvpr-2021-1,NDS
 Damo,,エラー,0.71,2021-09-30,,NDS
+MVP,Multimodal Virtual Point 3D Detection,エラー,0.71,2021-05-27,neurips-2021-12,NDS
+MTA-Net,,エラー,0.71,2022-03-07,,NDS
+PillarNet-34,,93,0.71,2022-03-04,,NDS
+AutoAlign,AutoAlign: Pixel-Instance Feature Aggregation for Multi-Modal 3D Object Detection,126,0.71,2022-01-09,,NDS
+HongdaChang,,エラー,0.71,2023-01-13,,NDS
+ARNet,,190,0.71,2021-10-28,,NDS
+TransFusion-L,,279,0.7,2021-08-31,,NDS
+HanyangSpa,,エラー,0.7,2022-08-04,,NDS
+SPV-SSD,,エラー,0.7,2022-12-17,,NDS
+Noah CV Lab & Octopus 2,,エラー,0.7,2020-09-01,,NDS
+epoch_40_s0.1,,エラー,0.7,2022-09-22,,NDS
+TransFusion_fading_yqwang,,エラー,0.7,2022-10-21,,NDS
+PVC_ensemble,,エラー,0.7,2020-12-09,,NDS
+pcd_lidar_99,,エラー,0.7,2022-09-13,,NDS
