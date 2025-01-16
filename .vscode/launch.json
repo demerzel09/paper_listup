@@ -10,7 +10,8 @@
             "python": ".venv/Scripts/python.exe",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "justMyCode": false
         }
     ]
 }

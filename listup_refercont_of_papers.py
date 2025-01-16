@@ -4,53 +4,53 @@ import time
 from paperswithcode import PapersWithCodeClient
 from scholarly import scholarly, ProxyGenerator
 
-# # キャッシュを有効化
-# pg = ProxyGenerator()
-# pg.FreeProxies() #.Cache()
-# scholarly.use_proxy(pg)
+# キャッシュを有効化
+pg = ProxyGenerator()
+pg.FreeProxies(timeout=2, wait_time=180) #.Cache()
+#success = pg.Tor_Internal(tor_cmd = "tor")
+scholarly.use_proxy(pg)
 
-# タスクIDの取得（'3d-object-detection'は仮のIDです。実際のIDを確認してください）
-# task_id = '3d-object-detection'
-# dataset_id  = 'nuscenes'
-# metric_name = 'NDS'
 # APIトークン（必要に応じて設定）
 API_TOKEN = '0909acbe65c81aaef99478e9197aa4b7cb2d2992' #'your_paperswithcode_api_token'
 
 task_list = [
-    ['semantic-segmentation'        ,'s3dis-area5'  ,'mIoU'],
-    ['3d-semantic-segmentation'     ,'semantickitti','mIoU'],
-    ['lidar-semantic-segmentation'  ,'nuscenes'     ,'mIoU'],
-    # ['multi-object-tracking'        ,'KITTI Test'   ,'HOTA'],
-    ['3d-multi-object-tracking'     ,'nuscenes'     ,'AMOTA'],
-    ['visual-localization'          ,'oxford-robotcar-full','mt'],
     ['point-cloud-registration'     ,'eth-trained-on-3dmatch','Feature Matching Recall'],
+    ['3d-multi-object-tracking'     ,'nuscenes'     ,'AMOTA'],
     ['monocular-depth-estimation'   ,'nyu-depth-v2-1','absolute relative error'],
-    ['scene-flow-estimation'        ,'spring'       ,'1px total'],    
     ['3d-semantic-scene-completion' ,'nyuv2'        ,'mIoU'],
     ['novel-view-synthesis'         ,'llff'         ,'PSNR'],
-    ['generalizable-novel-view-synthesis' ,'zju-mocap'    ,'PSNR'],
-    ['3d-object-detection'          ,'nuscenes'     ,'NDS'],
-    ['3d-object-detection'          ,'scannetv2'    ,'mAP'],
-    ['3d-object-detection'          ,'sun-rgbd-val' ,'mAP'],
-    ['3d-point-cloud-classification','modelnet40'   ,'Overrall-Accuracy'],
-    ['3d-point-cloud-classification','scanobjectnN' ,'NDS'],
-    ['semantic-segmentation'        ,'scannet'      ,'mIoU'],
-    ['semantic-segmentation'        ,'s3dis'        ,'Mean IoU'],
-    ['semantic-segmentation'        ,'sun-rgbd'     ,'Mean IoU'],
-    ['semantic-segmentation'        ,'semantic3d'   ,'mIoU'],
-    ['3d-semantic-segmentation'     ,'toronto-3d'   ,'mIoU'],
-    ['3d-semantic-segmentation'     ,'kitti-360'    ,'mIoU'],
-    ['lidar-semantic-segmentation'  ,'paris-lille-3d','mIoU'],
-    ['lidar-instance-segmentation'  ,'scannet'   ,'mAP'],
-    ['3d-multi-object-tracking'     ,'waymo-open-dataset','MOTA'],
-    ['point-cloud-registration'     ,'3dmatch-benchmark','Feature Matching Recall'],
-    ['point-cloud-registration'     ,'kitti'        ,'Success Rate'],
-    ['monocular-depth-estimation'   ,'kitti-eigen-split' ,'absolute relative error'],
-    ['monocular-depth-estimation'   ,'kitti-eigen-split-unsupervised' ,'absolute relative error'],
-    ['3d-semantic-scene-completion' ,'semantickitti','mIoU'],
-    ['3d-semantic-scene-completion' ,'kitti-360'    ,'mIoU'],
-    ['novel-view-synthesis'         ,'nerf'         ,'PSNR'],
+    ['semantic-segmentation'        ,'s3dis-area5'  ,'mIoU'],
+    ['lidar-semantic-segmentation'  ,'nuscenes'     ,'mIoU'],
+#     ['3d-object-detection'          ,'nuscenes'     ,'NDS'],
+#     ['3d-object-detection'          ,'scannetv2'    ,'mAP'],
+#     ['3d-object-detection'          ,'sun-rgbd-val' ,'mAP'],
+#     ['3d-point-cloud-classification','modelnet40'   ,'Overrall-Accuracy'],
+#     ['3d-point-cloud-classification','scanobjectnN' ,'NDS'],
+#     ['semantic-segmentation'        ,'scannet'      ,'mIoU'],
+#     ['semantic-segmentation'        ,'s3dis'        ,'Mean IoU'],
+#     ['semantic-segmentation'        ,'sun-rgbd'     ,'Mean IoU'],
+#     ['lidar-instance-segmentation'  ,'scannet'   ,'mAP'],
+#     ['lidar-instance-segmentation'  ,'s3dis'     'mAP'],
+#     ['3d-multi-object-tracking'     ,'waymo-open-dataset','MOTA'],
+#     ['monocular-depth-estimation'   ,'kitti-eigen-split' ,'absolute relative error'],
+#     ['monocular-depth-estimation'   ,'kitti-eigen-split-unsupervised' ,'absolute relative error'],
+#     ['3d-semantic-scene-completion' ,'semantickitti','mIoU'],
+#     ['novel-view-synthesis'         ,'nerf'         ,'PSNR'],
 ]
+
+# task_list2 = [
+#     ['visual-localization'          ,'oxford-robotcar-full','mt'], #少ないので手動
+#     ['scene-flow-estimation'        ,'spring'       ,'1px total'],  #少ないので手動   
+#     ['3d-semantic-scene-completion' ,'kitti-360'    ,'mIoU'],  #少ないので手動
+#     ['point-cloud-registration'     ,'3dmatch-benchmark','Feature Matching Recall'], #少ないので手動
+#     ['point-cloud-registration'     ,'kitti'        ,'Success Rate'], #少ないので手動
+#     ['3d-semantic-segmentation'     ,'semantickitti','mIoU'], #少ないので手動
+#     ['generalizable-novel-view-synthesis' ,'zju-mocap'    ,'PSNR'], #少ないので手動
+#     ['semantic-segmentation'        ,'semantic3d'   ,'mIoU'],
+#     ['3d-semantic-segmentation'     ,'toronto-3d'   ,'mIoU'],
+#     ['3d-semantic-segmentation'     ,'kitti-360'    ,'mIoU'],
+#     ['lidar-semantic-segmentation'  ,'paris-lille-3d','mIoU'],
+# ]
 
 def main():
     # PapersWithCode クライアントの初期化
@@ -191,10 +191,12 @@ def output_csv(client, task_id, dataset_id):
             #while True:
             try:
                 # ここでは主要メトリックの値を取得する例
-                if result.best_metric:
+                if result.best_metric and best_metric is None:
                     best_metric = result.best_metric 
-                if best_metric:
+                if best_metric and best_metric in result.metrics:
                     accuracy = result.metrics[best_metric]
+                if accuracy is None:
+                    accuracy = result.metrics[result.best_metric]
                 if result.evaluated_on:
                     evaluated_on = result.evaluated_on
 
