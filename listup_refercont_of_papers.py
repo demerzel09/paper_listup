@@ -4,11 +4,11 @@ import time
 from paperswithcode import PapersWithCodeClient
 from scholarly import scholarly, ProxyGenerator
 
-# キャッシュを有効化
-pg = ProxyGenerator()
-pg.FreeProxies(timeout=2, wait_time=180) #.Cache()
-#success = pg.Tor_Internal(tor_cmd = "tor")
-scholarly.use_proxy(pg)
+# # キャッシュを有効化
+# pg = ProxyGenerator()
+# pg.FreeProxies(timeout=2, wait_time=180) #.Cache()
+# #success = pg.Tor_Internal(tor_cmd = "tor")
+# scholarly.use_proxy(pg)
 
 # APIトークン（必要に応じて設定）
 API_TOKEN = '0909acbe65c81aaef99478e9197aa4b7cb2d2992' #'your_paperswithcode_api_token'
@@ -175,7 +175,7 @@ def output_csv(client, task_id, dataset_id):
             # 引用数の取得
             if citations is None or citations=='エラー':
                 try:
-                    time.sleep(5.0)
+                    time.sleep(10.0)
                     keyword = paper_title if paper_title is not None else methodology
                     search_query = scholarly.search_pubs(keyword)
                     paper_scholarly = next(search_query, None)
