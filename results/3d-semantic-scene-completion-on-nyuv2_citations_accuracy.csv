@@ -1,0 +1,33 @@
+﻿methodology,title,citations,accuracy,date,proceeding,metric
+SG-SSC,2D Semantic-Guided Semantic Scene Completion,引用情報が見つかりません,55.4,2024-09-12,international-journal-of-computer-vision-ijcv,mIoU
+SISNet,Semantic Scene Completion via Integrating Instances and Scene in-the-Loop,引用情報が見つかりません,52.4,2021-04-08,cvpr-2021-1,mIoU
+SPAwN (SUNCG pretraining),Data Augmented 3D Semantic Scene Completion with 2D Segmentation Priors,引用情報が見つかりません,49.9,2021-11-26,,mIoU
+SPAwN,Data Augmented 3D Semantic Scene Completion with 2D Segmentation Priors,引用情報が見つかりません,48,2021-11-26,,mIoU
+Point-Voxel Aggregation Network,Not All Voxels Are Equal: Semantic Scene Completion from the Point-Voxel Perspective,引用情報が見つかりません,46,2021-12-24,,mIoU
+CCPNet (SUNCG pretraining),Cascaded Context Pyramid for Full-Resolution 3D Semantic Scene Completion,引用情報が見つかりません,41.3,2019-08-01,iccv-2019-10,mIoU
+3DSketch,3D Sketch-aware Semantic Scene Completion via Semi-supervised Structure Prior,引用情報が見つかりません,41.1,2020-03-31,cvpr-2020-6,mIoU
+ForkNet (SUNCG pretraining),ForkNet: Multi-branch Volumetric Semantic Completion from a Single Depth Image,引用情報が見つかりません,37.1,2019-09-03,iccv-2019-10,mIoU
+"IPF-SPCNet: Semantic point completion network for 3D
+semantic scene completion",Semantic Point Completion Network for 3D Semantic Scene Completion,引用情報が見つかりません,35.1,2020-08-29,ecai-2020-8,mIoU
+Real-time semantic scene completion via feature aggregation and conditioned prediction,3D Semantic Scene Completion: a Survey,106,34.4,2021-03-12,,mIoU
+TS3D,Two Stream 3D Semantic Scene Completion,引用情報が見つかりません,34.1,2021-03-12,,mIoU
+EdgeNet (SUNCG pretraining),3D Semantic Scene Completion: a Survey,106,33.7,2021-03-12,,mIoU
+AIC-Net,Anisotropic Convolutional Networks for 3D Semantic Scene Completion,引用情報が見つかりません,33.3,2020-04-05,cvpr-2020-6,mIoU
+AMFNet,Attention-based Multi-modal Fusion Network for Semantic Scene Completion,引用情報が見つかりません,33,2020-03-31,,mIoU
+GRFNet,3D Gated Recurrent Fusion for Semantic Scene Completion,引用情報が見つかりません,32.9,2020-02-17,,mIoU
+"VD-CRF: Semantic scene completion with dense
+CRF from a single depth image. (SUNCG pretraining)",3D Semantic Scene Completion: a Survey,106,31.8,2021-03-12,,mIoU
+"Am2fnet: Attention-based multiscale
+& multi-modality fused network",3D Semantic Scene Completion: a Survey,106,31.7,2021-03-12,,mIoU
+OccDepth,OccDepth: A Depth-Aware Method for 3D Semantic Scene Completion,引用情報が見つかりません,30.9,2023-02-27,,mIoU
+SSCNet (SUNCG pretraining),Semantic Scene Completion from a Single Depth Image,1439,30.5,2021-03-12,cvpr-2017-7,mIoU
+DDRNet,RGBD Based Dimensional Decomposition Residual Network for 3D Semantic Scene Completion,引用情報が見つかりません,30.4,2019-03-02,cvpr-2019-6,mIoU
+VVNet,View-volume Network for Semantic Scene Completion from a Single Depth Image,引用情報が見つかりません,29.3,2018-06-14,,mIoU
+LMSCNet-SS,LMSCNet: Lightweight Multiscale 3D Semantic Completion,引用情報が見つかりません,28.4,2020-08-24,,mIoU
+EdgeNet,EdgeNet: Semantic Scene Completion from a Single RGB-D Image,引用情報が見つかりません,27.8,2019-08-08,,mIoU
+Guedes et al.,Semantic Scene Completion Combining Colour and Depth: preliminary experiments,19,27.5,2018-02-13,,mIoU
+MonoScene (RGB input only),MonoScene: Monocular 3D Semantic Scene Completion,引用情報が見つかりません,26.94,2021-12-01,cvpr-2022-1,mIoU
+ESSCNet,Efficient Semantic Scene Completion Network with Spatial Group Convolution,引用情報が見つかりません,26.7,2019-07-11,eccv-2018-9,mIoU
+SSCNet,Semantic Scene Completion from a Single Depth Image,1439,24.7,2016-11-28,cvpr-2017-7,mIoU
+"3D semantic scene completion
+from a single depth image using adversarial training",3D Semantic Scene Completion: a Survey,106,22.7,2021-03-12,,mIoU

@@ -1,0 +1,39 @@
+methodology,title,citations,accuracy,date,proceeding,metric
+HybridDepth,HybridDepth: Robust Metric Depth Fusion by Leveraging Depth from Focus and Single-Image Priors,引用情報が見つかりません,0.026,2024-07-26,,absolute relative error
+PrimeDepth + Depth Anything,PrimeDepth: Efficient Monocular Depth Estimation with a Stable Diffusion Preimage,引用情報が見つかりません,0.046,2024-09-13,,absolute relative error
+"Metric3Dv2(L, FT)",,20,0.047,2024-03-22,,absolute relative error
+DepthMaster,DepthMaster: Taming Diffusion Models for Monocular Depth Estimation,引用情報が見つかりません,0.050,2025-01-05,,absolute relative error
+GRIN,GRIN: Zero-Shot Metric Depth with Pixel-Level Diffusion,引用情報が見つかりません,0.051,2024-09-15,,absolute relative error
+Marigold + E2E FT(zero-shot),Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think,引用情報が見つかりません,0.052,2024-09-17,,absolute relative error
+Marigold,Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation,引用情報が見つかりません,0.055,2023-12-04,cvpr-2024-1,absolute relative error
+Depth Anything,Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data,545,0.056,2024-01-19,cvpr-2024-1,absolute relative error
+UniDepth (Zero-shot),UniDepth: Universal Monocular Metric Depth Estimation,26,0.058,2024-03-27,cvpr-2024-1,absolute relative error
+PrimeDepth,PrimeDepth: Efficient Monocular Depth Estimation with a Stable Diffusion Preimage,引用情報が見つかりません,0.058,2024-09-13,,absolute relative error
+ECoDepth,ECoDepth: Effective Conditioning of Diffusion Models for Monocular Depth Estimation,引用情報が見つかりません,0.059,2024-03-27,cvpr-2024-1,absolute relative error
+MetaPrompt-SD,Harnessing Diffusion Models for Visual Perception with Meta Prompts,13,0.061,2023-12-22,,absolute relative error
+EVP,EVP: Enhanced Visual Perception using Inverse Multi-Attentive Feature Refinement and Regularized Image-Text Alignment,引用情報が見つかりません,0.061,2023-12-13,,absolute relative error
+TADP,Text-image Alignment for Diffusion-based Perception,引用情報が見つかりません,0.062,2023-09-29,cvpr-2024-1,absolute relative error
+FutureDepth,FutureDepth: Learning to Predict the Future Improves Video Depth Estimation,引用情報が見つかりません,0.063,2024-03-19,,absolute relative error
+MeSa,"MeSa: Masked, Geometric, and Supervised Pre-training for Monocular Depth Estimation",3,0.066,2023-10-06,,absolute relative error
+PolyMaX(ConvNeXt-L),PolyMaX: General Dense Prediction with Mask Transformer,引用情報が見つかりません,0.067,2023-11-09,,absolute relative error
+VPD,Unleashing Text-to-Image Diffusion Models for Visual Perception,引用情報が見つかりません,0.069,2023-03-03,iccv-2023-1,absolute relative error
+NVDS(DPT-L),NVDS+: Towards Efficient and Versatile Neural Stabilizer for Video Depth Estimation,引用情報が見つかりません,0.072,2023-07-17,iccv-2023-1,absolute relative error
+DMD,Zero-Shot Metric Depth with a Field-of-View Conditioned Diffusion Model,引用情報が見つかりません,0.072,2023-12-20,,absolute relative error
+ScaleDepth-N,ScaleDepth: Decomposing Metric Depth Estimation into Scale Prediction and Relative Depth Estimation,引用情報が見つかりません,0.074,2024-07-11,,absolute relative error
+DepthGen,Monocular Depth Estimation using Diffusion Models,引用情報が見つかりません,0.074,2023-02-28,,absolute relative error
+ZoeD-M12-N,ZoeDepth: Zero-shot Transfer by Combining Relative and Metric Depth,388,0.075,2023-02-23,,absolute relative error
+AiT-P(SwinV2-L),All in Tokens: Unifying Output Space of Visual Tasks via Soft Token,43,0.076,2023-01-05,iccv-2023-1,absolute relative error
+Gaming for Depth (GfD),Large-scale Monocular Depth Estimation in the Wild,引用情報が見つかりません,0.080,2023-09-18,engineering-applications-of-artificial-4,absolute relative error
+SwinV2-L 1K-MIM,Revealing the Dark Secrets of Masked Image Modeling,140,0.083,2022-05-26,cvpr-2023-1,absolute relative error
+"Metric3D (ConvNeXt-Large, Zero-shot testing)",Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image,引用情報が見つかりません,0.083,2023-07-20,iccv-2023-1,absolute relative error
+VA-DepthNet(SwinV1-L),VA-DepthNet: A Variational Approach to Single Image Depth Prediction,引用情報が見つかりません,0.086,2023-02-13,,absolute relative error
+iDisc,iDisc: Internal Discretization for Monocular Depth Estimation,引用情報が見つかりません,0.086,2023-04-13,cvpr-2023-1,absolute relative error
+MIM-Swin-V2,Analysis of NaN Divergence in Training Monocular Depth Estimation Model,エラー,0.0864,2023-11-07,,absolute relative error
+NDDepth,NDDepth: Normal-Distance Assisted Monocular Depth Estimation,エラー,0.087,2023-09-19,iccv-2023-1,absolute relative error
+IEBins,IEBins: Iterative Elastic Bins for Monocular Depth Estimation,エラー,0.087,2023-09-25,neurips-2023-11,absolute relative error
+URCDC-Depth,URCDC-Depth: Uncertainty Rectified Cross-Distillation with CutFlip for Monocular Depth Estimation,エラー,0.088,2023-02-16,,absolute relative error
+OrdinalEntropy,Improving Deep Regression with Ordinal Entropy,エラー,0.089,2023-01-21,,absolute relative error
+PixelFormer,Attention Attention Everywhere: Monocular Depth Prediction with Skip Attention,エラー,0.090,2022-10-17,,absolute relative error
+LeReS,Learning to Recover 3D Scene Shape from a Single Image,エラー,0.09,2020-12-17,cvpr-2021-1,absolute relative error
+"DINOv2 (ViT-g/14 frozen, w/ DPT decoder)",DINOv2: Learning Robust Visual Features without Supervision,エラー,0.0907,2023-04-14,,absolute relative error
+DDP (step3),DDP: Diffusion Model for Dense Visual Prediction,エラー,0.094,2023-03-30,iccv-2023-1,absolute relative error

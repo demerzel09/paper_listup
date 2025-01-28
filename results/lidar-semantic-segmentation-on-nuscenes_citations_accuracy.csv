@@ -1,0 +1,33 @@
+﻿methodology,title,citations,accuracy,date,proceeding,metric
+PTv3+PPT,Point Transformer V3: Simpler, Faster, Stronger,引用情報が見つかりません,0.830,2023-12-15,,test mIoU
+PTv2,Point Transformer V2: Grouped Vector Attention and Partition-based Pooling,引用情報が見つかりません,0.826,2022-10-11,,test mIoU
+FRNet,FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation,引用情報が見つかりません,0.825,2023-12-07,,test mIoU
+SphereFormer,Spherical Transformer for LiDAR-based 3D Recognition,引用情報が見つかりません,0.819,2023-03-22,cvpr-2023-1,test mIoU
+SPVCNN++,Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution,引用情報が見つかりません,0.811,2020-07-31,eccv-2020-8,test mIoU
+2DPASS,2DPASS: 2D Priors Assisted Semantic Segmentation on LiDAR Point Clouds,引用情報が見つかりません,0.81,2022-07-10,,test mIoU
+RangeFormer,Rethinking Range View Representation for LiDAR Segmentation,引用情報が見つかりません,0.81,2023-03-09,iccv-2023-1,test mIoU
+2D3DNet,Learning 3D Semantic Segmentation with only 2D Image Supervision,引用情報が見つかりません,0.80,2021-10-21,,test mIoU
+GU-Net,,3,0.80,2021-05-26,,test mIoU
+DRINet++: Efficient Voxel-as-point Point Cloud Segmentation,,引用情報が見つかりません,0.80,2021-09-01,,test mIoU
+AF2S3Net,(AF)2-S3Net: Attentive Feature Fusion with Adaptive Feature Selection for Sparse Semantic Segmentation Network,引用情報が見つかりません,0.78,2021-02-08,,test mIoU
+Cylinder3D++,Cylinder3D: An Effective 3D Framework for Driving-scene LiDAR Semantic Segmentation,219,0.78,2020-12-09,,test mIoU
+CPFusion,,0,0.78,2020-12-08,,test mIoU
+SPVNAS,Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution,引用情報が見つかりません,0.77,2020-07-31,eccv-2020-8,test mIoU
+AMVNet,AMVNet: Assertion-based Multi-View Fusion Network for LiDAR Semantic Segmentation,131,0.77,2020-12-09,,test mIoU
+Cylinder3D+InstanceAug,Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation,引用情報が見つかりません,0.77,2020-11-19,cvpr-2021-1,test mIoU
+PMF-ResNet50,EPMF: Efficient Perception-aware Multi-sensor Fusion for 3D Semantic Segmentation,引用情報が見つかりません,0.77,2021-08-02,iccv-2021-1,test mIoU
+LIFusion,,10,0.76,2021-05-26,,test mIoU
+GFNet,GFNet: Geometric Flow Network for 3D Point Cloud Semantic Segmentation,引用情報が見つかりません,0.76,2022-07-06,,test mIoU
+OrangeNet,,0,0.75,2020-12-09,,test mIoU
+JS3C-Net,,289,0.74,2021-04-26,,test mIoU
+Open_world_incremental,,1,0.74,2021-09-23,,test mIoU
+PolarStream-1,PolarStream: Streaming Lidar Object Detection and Segmentation with Polar Pillars,56,0.73,2021-06-14,,test mIoU
+DB-Unet,,8,0.70,2020-12-07,,test mIoU
+Vis-PolarNet,,引用情報が見つかりません,0.70,2020-12-07,,test mIoU
+PolarNet,PolarNet: An Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation,引用情報が見つかりません,0.69,2020-03-31,cvpr-2020-6,test mIoU
+EfficientLPS,,97,0.68,2021-09-06,,test mIoU
+Camera-LiDAR Fusion + HTC + Map,,6,0.44,2020-12-15,,test mIoU
+WaffleIron,Using a Waffle Iron for Automotive Point Cloud Semantic Segmentation,40,0.791,2023-01-24,iccv-2023-1,test mIoU
+OA-CNNs,OA-CNNs: Omni-Adaptive Sparse CNNs for 3D Semantic Segmentation
+PPT+SparseUNet,Towards Large-scale 3D Representation Learning with Multi-dataset Point Prompt Training
+Point-to-Voxel KD,Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation,引用情報が見つかりません,0.760,2022-06-05,cvpr-2022-1,test mIoU

@@ -14,14 +14,14 @@ from scholarly import scholarly, ProxyGenerator
 API_TOKEN = '0909acbe65c81aaef99478e9197aa4b7cb2d2992' #'your_paperswithcode_api_token'
 
 task_list = [
-    ['point-cloud-registration'     ,'eth-trained-on-3dmatch','Feature Matching Recall'],
-    ['3d-multi-object-tracking'     ,'nuscenes'     ,'AMOTA'],
-    ['monocular-depth-estimation'   ,'nyu-depth-v2-1','absolute relative error'],
+    # ['3d-object-detection'          ,'nuscenes'     ,'NDS'],    
     ['3d-semantic-scene-completion' ,'nyuv2'        ,'mIoU'],
     ['novel-view-synthesis'         ,'llff'         ,'PSNR'],
-    ['semantic-segmentation'        ,'s3dis-area5'  ,'mIoU'],
-    ['lidar-semantic-segmentation'  ,'nuscenes'     ,'mIoU'],
-#     ['3d-object-detection'          ,'nuscenes'     ,'NDS'],
+# 済    ['semantic-segmentation'        ,'s3dis-area5'  ,'mIoU'],
+# 済    ['lidar-semantic-segmentation'  ,'nuscenes'     ,'mIoU'],
+# 済    ['3d-multi-object-tracking'     ,'nuscenes'     ,'AMOTA'],
+# 済    ['monocular-depth-estimation'   ,'nyu-depth-v2-1','absolute relative error'],    
+# 済    ['point-cloud-registration'     ,'eth-trained-on-3dmatch','Feature Matching Recall'],
 #     ['3d-object-detection'          ,'scannetv2'    ,'mAP'],
 #     ['3d-object-detection'          ,'sun-rgbd-val' ,'mAP'],
 #     ['3d-point-cloud-classification','modelnet40'   ,'Overrall-Accuracy'],
@@ -175,7 +175,7 @@ def output_csv(client, task_id, dataset_id):
             # 引用数の取得
             if citations is None or citations=='エラー':
                 try:
-                    time.sleep(10.0)
+                    time.sleep(35.0)
                     keyword = paper_title if paper_title is not None else methodology
                     search_query = scholarly.search_pubs(keyword)
                     paper_scholarly = next(search_query, None)

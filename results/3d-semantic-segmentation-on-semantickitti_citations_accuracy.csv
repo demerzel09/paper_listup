@@ -1,0 +1,21 @@
+﻿methodology,title,citations,accuracy,date,proceeding,metric
+PTv3+PPT,"Point Transformer V3: Simpler, Faster, Stronger",146,75.5%,2023-12-15,,test mIoU
+UniSeg,UniSeg: A Unified Multi-Modal LiDAR Segmentation Network and the OpenPCSeg Codebase,29,75.2%,2023-09-11,iccv-2023-1,test mIoU
+SphereFormer,Spherical Transformer for LiDAR-based 3D Recognition,147,74.8%,2023-03-22,cvpr-2023-1,test mIoU
+FRNet,FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation,18,73.3%,2023-12-07,,test mIoU
+RangeFormer,Rethinking Range View Representation for LiDAR Segmentation,148,73.3%,2023-03-09,iccv-2023-1,test mIoU
+2DPASS,2DPASS: 2D Priors Assisted Semantic Segmentation on LiDAR Point Clouds,272,72.9%,2022-07-10,,test mIoU
+PTv2,Point Transformer V2: Grouped Vector Attention and Partition-based Pooling,355,72.6%,2022-10-11,,test mIoU
+PVKD,Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation,192,71.2%,2022-06-05,cvpr-2022-1,test mIoU
+AF2S3Net,(AF)2-S3Net: Attentive Feature Fusion with Adaptive Feature Selection for Sparse Semantic Segmentation Network,277,70.8%,2021-03-21,,test mIoU
+WaffleIron,Using a Waffle Iron for Automotive Point Cloud Semantic Segmentation,40,70.8%,2023-01-24,iccv-2023-1,test mIoU
+Cylinder3D,Cylinder3D: An Effective 3D Framework for Driving-scene LiDAR Semantic Segmentation,216,68.9%,2020-11-19,,test mIoU
+SPVNAS,Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution,745,66.4%,2020-07-31,eccv-2020-8,test mIoU
+JS3C-Net,Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion,284,66.0%,2020-12-07,,test mIoU
+GFNet,GFNet: Geometric Flow Network for 3D Point Cloud Semantic Segmentation,55,65.4%,2022-07-06,,test mIoU
+KPRNet,KPRNet: Improving projection-based LiDAR semantic segmentation,95,63.1%,2020-07-24,,test mIoU
+TORNADONet-HiRes,TORNADO-Net: mulTiview tOtal vaRiatioN semAntic segmentation with Diamond inceptiOn module,97,63.1%,2020-08-24,,test mIoU
+NAPL,Number-Adaptive Prototype Learning for 3D Point Cloud Semantic Segmentation,15,61.6%,2022-10-18,,test mIoU
+Meta-RangeSeg,Meta-RangeSeg: LiDAR Sequence Semantic Segmentation Using Multiple Feature Aggregation,35,61.0%,2022-02-27,,test mIoU
+BAAF-Net,Semantic Segmentation for Real Point Cloud Scenes via Bilateral Augmentation and Adaptive Fusion,268,59.9%,2021-03-12,cvpr-2021-1,test mIoU
+SalsaNext,"SalsaNext: Fast, Uncertainty-aware Semantic Segmentation of LiDAR Point Clouds for Autonomous Driving",エラー,59.5%,2020-03-07,,test mIoU

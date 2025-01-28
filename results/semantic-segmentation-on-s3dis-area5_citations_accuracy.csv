@@ -1,0 +1,55 @@
+methodology,title,citations,accuracy,date,proceeding,metric
+Swin3D-L,,2,74.5,2023-04-14,,mIoU
+DeLA,,956,74.1,2023-08-31,,mIoU
+Ours,,79,73.6,2024-11-01,,mIoU
+ConDaFormer,,19,73.5,2023-12-18,,mIoU
+LPFP(Point Transformer*),,8,73.5,2024-03-21,,mIoU
+KPConvX-L,,3,73.5,2024-05-21,,mIoU
+SPG(PTv2),,1,73.3,2024-08-20,,mIoU
+PonderV2 + SparseUNet,,32,73.2,2023-10-12,,mIoU
+PointHR,,7,73.2,2023-10-11,,mIoU
+PPT + SparseUNet,,32,72.7,2023-08-18,,mIoU
+SAT (FAT),,930,72.6,2023-01-17,,mIoU
+PTv2,,2,72.6,2022-10-11,,mIoU
+PT + ERDA,,0,72.6,,,mIoU
+PointVector-XL,,40,72.3,2022-05-21,,mIoU
+WindowNorm+StratifiedTransformer,,11,72.2,2022-10-20,,mIoU
+Diffusion Unit,,124,72.2,2022-09-20,,mIoU
+CSC+MinkUNet,,6,72.2,2020-12-16,,mIoU
+StratifiedTransformer,,446,72.0,2022-03-28,,mIoU
+PointTransformer+CBL,,2,71.6,2022-03-10,,mIoU
+WindowNorm+PointTransformer,,11,71.4,2022-12-10,,mIoU
+PointMixer,,110,71.4,2021-11-22,,mIoU
+PointMetaBase-XXL,,70,71.3±0.7,2022-11-26,,mIoU
+PointNeXt,,642,71.1,2022-06-09,,mIoU
+SPoTr,,68,70.8,2023-03-29,,mIoU
+Serialized Piont Mamba,,0,70.6,2024-07-17,,mIoU
+PointTransformer,,2288,70.4,2020-12-16,,mIoU
+LCPFormer,,59,70.2,2022-10-23,,mIoU
+GeomGCNN,,19,69.4,2021-03-28,,mIoU
+Superpoint Transformer,,52,68.9,2023-06-13,,mIoU
+RepSurf-U,,213,68.9,2022-03-01,,mIoU
+CGA-Net,,48,68.6,2021-06-19,,mIoU
+SuperCluster,,399,68.1,2024-01-12,,mIoU
+MKConv,,20,67.7,2023-06-02,,mIoU
+PatchFormer,,86,67.3,2021-10-30,,mIoU
+FusionNet,FusionNet: A deep fully residual convolutional neural network for image segmentation in connectomics,330,67.2,2020-08-01,,mIoU
+KPConv,,3096,67.1,2019-04-18,,mIoU
+ASSANet,,91,66.8,2021-10-20,,mIoU
+BAAF-Net,,0,65.4,2021-03-12,,mIoU
+MinkowskiNet,,2041,65.4,2019-04-18,,mIoU
+VMVF,,0,65.38,2020-07-26,,mIoU
+SCF-Net,,286,63.7,2020-11-16,,mIoU
+MuG-Net,,8,63.5,2020-11-16,,mIoU
+HPEIN,,103,61.85,2019-09-23,,mIoU
+SSP+SPG,,0,61.7,2019-04-03,,mIoU
+DPC,,76,61.28,2019-04-29,,mIoU
+SPG,SPG-Net: Segmentation Prediction and Guidance Network for Image Inpainting,引用情報が見つかりません,58.04,2017-11-27,,mIoU
+PointCNN,PointCNN: Convolution On X-Transformed Points,3279,57.3,2020-12-16,neurips-2018-12,mIoU
+DeepGCN,,1791,52.49,2019-10-15,,mIoU
+SegCloud,SEGCloud: Semantic Segmentation of 3D Point Clouds,引用情報が見つかりません,48.9,2017-10-20,,mIoU
+PointNet,PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space,13459,41.1,2020-12-16,neurips-2017-12,mIoU
+TangentConv,Tangent Convolutions for Dense Prediction in 3D,683,N/A,2018-07-06,cvpr-2018-6,mIoU
+PointNet,PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space,13459,N/A,2016-12-02,neurips-2017-12,mIoU
+PointWeb,,904,N/A,2019-06-01,,mIoU
+PointCNN,PointCNN: Convolution On X-Transformed Points,3279,N/A,2018-12-01,neurips-2018-12,mIoU

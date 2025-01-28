@@ -1,0 +1,116 @@
+methodology,title,citations,accuracy,date,proceeding,metric
+MCTrack,MCTrack: A Unified 3D Multi-Object Tracking Framework for Autonomous Driving,1,0.763,2024-09-23,,AMOTA
+Fast-Poly,Fast-Poly: A Fast Polyhedral Framework For 3D Multi-Object Tracking,4,0.758,2024-03-18,,AMOTA
+Poly-MOT,,28,0.754,2023-03-01,,AMOTA
+CAMO-MOT,CAMO-MOT: Combined Appearance-Motion Optimization for 3D Multi-Object Tracking with Camera-LiDAR Fusion,77,0.753,2022-08-03,,AMOTA
+BEVFusion + AppearanceTracker,,0,0.741,2022-06-29,,AMOTA
+MSMDFusion-base,,4,0.740,2022-11-12,,AMOTA
+GTFS,,134,0.73,2022-03-31,,AMOTA
+YH-DEEP,,60,0.73,2023-01-31,,AMOTA
+TransFusion,,1168,0.72,2021-10-29,,AMOTA
+MixFusion,,16,0.72,2022-10-16,,AMOTA
+trans,,630,0.71,2022-04-18,,AMOTA
+giou_greedy,,引用情報が見つかりません,0.71,2022-04-21,,AMOTA
+AlphaTrack_v2,,引用情報が見つかりません,0.7,2021-01-25,,AMOTA
+MinkowskiTracker,,13,0.7,2022-08-02,,AMOTA
+L-ByteTrack,,0,0.7,2022-11-04,,AMOTA
+ShaSTA,ShaSTA: Modeling Shape and Spatio-Temporal Affinities for 3D Multi-Object Tracking,24,0.7,2023-01-30,,AMOTA
+InterTrack,InterTrack: Interaction Transformer for 3D Multi-Object Tracking,16,0.69,2021-10-10,,AMOTA
+TransFusion-L,,279,0.69,2021-09-23,,AMOTA
+RobustMOT,,3,0.69,2022-08-22,,AMOTA
+TEMI-MOT,,1,0.69,2022-08-26,,AMOTA
+TEMI-MOT_TransL,,引用情報が見つかりません,0.69,2022-12-02,,AMOTA
+EagerMOT,EagerMOT: 3D Multi-Object Tracking via Sensor Fusion,246,0.68,2021-04-29,,AMOTA
+Octopus_Tracker,,0,0.68,2020-08-20,,AMOTA
+CBMOT,,68,0.68,2021-03-05,,AMOTA
+MLPMOT,,7,0.68,2021-05-10,,AMOTA
+lighthouse,,4351,0.68,2021-07-16,,AMOTA
+IMM_FUSION,,37,0.68,2021-10-23,,AMOTA
+ImmortalTracker,,53,0.68,2021-12-22,,AMOTA
+GNN-PMB,,39,0.68,2022-04-20,,AMOTA
+Neural Enhanced Belief Propagation-V2,,3,0.68,2022-04-17,,AMOTA
+MSA-MOT,,15,0.68,2022-08-24,,AMOTA
+3DMOTFormer++ (CenterPoint),,引用情報が見つかりません,0.68,2023-02-22,,AMOTA
+Offline Tracking with Object Permanence,Offline Tracking with Object Permanence,1,0.671,2023-10-02,,AMOTA
+MCMOT,,127,0.67,2020-07-18,,AMOTA
+SimpleTrack,SimpleTrack: Understanding and Rethinking 3D Multi-object Tracking,165,0.67,2021-07-23,,AMOTA
+Neural Enhanced Belief Propagation,,119,0.67,2022-02-17,,AMOTA
+Belief Propagation-V2,,3,0.67,2022-04-16,,AMOTA
+PA3DMOT,,引用情報が見つかりません,0.67,2022-11-04,,AMOTA
+try-a-tracker,,102,0.66,2020-07-03,,AMOTA
+OGR3MOT,,27,0.66,2021-05-26,,AMOTA
+StanfordIPRL-TRI-Multi-Modal,,引用情報が見つかりません,0.66,2021-05-27,,AMOTA
+cca,,432,0.66,2021-05-10,,AMOTA
+test,,1201,0.66,2022-04-15,,AMOTA
+UVTR-LiDAR-Greedy,,引用情報が見つかりません,0.66,2022-07-30,,AMOTA
+PolarMOT,EagerMOT: 3D Multi-Object Tracking via Sensor Fusion,246,0.66,2021-04-29,,AMOTA
+CenterPoint,,1913,0.65,2020-05-27,,AMOTA
+CenterPoint + CBMOT,,27,0.65,2020-09-17,,AMOTA
+Belief Propagation (BP),,2074,0.65,2021-09-12,,AMOTA
+StrongFusionMOT,,42,0.65,2022-09-06,,AMOTA
+CenterPoint-Single,Center-based 3D Object Detection and Tracking,1913,0.64,2020-06-16,cvpr-2021-1,AMOTA
+IPI-tracker,,1,0.64,2021-12-27,,AMOTA
+PMBM filter,,304,0.63,2020-07-10,,AMOTA
+VVVVV,,0,0.63,2021-04-28,,AMOTA
+RFS-M^3,,16,0.62,2020-10-31,,AMOTA
+libetter,,4,0.62,2022-04-19,,AMOTA
+FTN+CenterPoint,,1,0.61,2021-05-27,,AMOTA
+Try-cp,,39,0.6,2021-01-21,,AMOTA
+HyDRa,"Unleashing HyDRa: Hybrid Fusion, Depth Consistency and Radar for Unified 3D Perception",15,0.584,2024-03-12,,AMOTA
+IMBAfarmer09,,1,0.58,2020-05-07,,AMOTA
+IMM_SGNN,,1,0.58,2021-05-07,,AMOTA
+AB3DMOT+Megvii,,27,0.57,2022-02-27,,AMOTA
+CRN,"CRN: Camera Radar Net for Accurate, Robust, Efficient 3D Perception",72,0.569,2023-04-03,iccv-2023-1,AMOTA
+DTIF,,2,0.56,2020-05-22,,AMOTA
+IMM tracking,,185,0.56,2020-03-12,,AMOTA
+A classical method,,578,0.56,2020-08-11,,AMOTA
+MV-ByteTrack,,0,0.56,2022-10-24,,AMOTA
+UWaterloo,,45,0.55,2020-08-12,,AMOTA
+TATA,,5338,0.55,2020-05-18,,AMOTA
+Mahalanobis Distance-based 3D Multi-Object Tracking,,284,0.55,2019-12-06,,AMOTA
+calcalcal,,4,0.55,2020-08-04,,AMOTA
+2-stage + MEGVII,,323,0.55,2021-01-22,,AMOTA
+trans_imm,,26,0.55,2022-04-19,,AMOTA
+E2E-Asso-Tracker,,引用情報が見つかりません,0.55,2022-09-07,,AMOTA
+ab3dmot_paper,,0,0.54,2022-03-23,,AMOTA
+covest_cp,,引用情報が見つかりません,0.52,2022-05-19,,AMOTA
+TEAM_J,,5,0.52,2022-06-13,,AMOTA
+CenterPoint,,1913,0.49,2022-02-24,,AMOTA
+QTrack,,0,0.48,2022-08-16,,AMOTA
+DAMEN-T,,2644,0.46,2022-09-07,,AMOTA
+NCTU-A Happy Group,,5,0.43,2020-06-13,,AMOTA
+XTracker,,0,0.43,2022-08-10,,AMOTA
+XDetTracking,,引用情報が見つかりません,0.43,2022-10-13,,AMOTA
+PF-Track,,47,0.43,2022-11-10,,AMOTA
+CC-3DT,,30,0.41,2022-06-25,,AMOTA
+SRCN3D,SRCN3D: Sparse R-CNN 3D for Compact Convolutional Multi-View 3D Object Detection and Tracking,3,0.4,2022-07-22,,AMOTA
+XformerTrack,,引用情報が見つかりません,0.38,2022-08-05,,AMOTA
+VV_team,,2,0.37,2019-12-02,,AMOTA
+Culaccino,,4,0.37,2022-08-03,,AMOTA
+FG-3DMOT,,1,0.34,2021-02-14,,AMOTA
+BEVTrack,,3,0.34,2022-05-09,,AMOTA
+TwoStageTrack,,3,0.28,2021-06-29,,AMOTA
+TripletTrack,,50,0.27,2022-03-01,,AMOTA
+PolarDETR_pure,,引用情報が見つかりません,0.27,2022-01-23,,AMOTA
+MUTR3D: A Multi-camera Tracking Framework via 3D-to-2D Queries,,引用情報が見つかりません,0.27,2022-03-06,,AMOTA
+gz123,,0,0.27,2022-10-18,,AMOTA
+IMM + CenterPoint,,141,0.26,2021-05-06,,AMOTA
+CenterFusion+PMBM+UKF,,31,0.26,2021-05-30,,AMOTA
+SAGA-TrackNet,,12,0.24,2021-10-31,,AMOTA
+SAGA-Track,,12,0.23,2021-11-14,,AMOTA
+2-Class,,17,0.23,2022-06-02,,AMOTA
+QD-3DT,,3,0.22,2021-02-16,,AMOTA
+Time3D,,216,0.21,2021-11-04,,AMOTA
+CFTrack,CFTrack: Center-based Radar and Camera Fusion for 3D Multi-Object Tracking,24,0.2,2021-02-10,,AMOTA
+DEFT,DEFT: Detection Embeddings for Tracking,107,0.18,2020-10-31,,AMOTA
+Transformer_based_Tracker,,15,0.18,2021-06-20,,AMOTA
+Pinkie Pie,,0,0.18,2022-04-23,,AMOTA
+WISE-ADS,,346,0.12,2021-12-22,,AMOTA
+DB-Net,,60,0.07,2020-10-12,,AMOTA
+PorTrack,,0,0.07,2020-08-24,,AMOTA
+Buffalo Vision Team,,0,0.06,2020-10-04,,AMOTA
+CaTracker,,1,0.05,2020-08-24,,AMOTA
+CenterTrack,,1360,0.05,2019-12-02,,AMOTA
+gdlg,,20,0.04,2020-03-31,,AMOTA
+blp3,,4,0.03,2021-12-21,,AMOTA
+bailipingtest,,引用情報が見つかりません,0.02,2021-12-20,,AMOTA

@@ -1,0 +1,16 @@
+methodology,title,citations,accuracy,date,proceeding,metric
+TensoRF + NeRFLiX,NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer,25,27.39,2023-03-13,cvpr-2023-1,PSNR
+JAXNeRF,MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures,引用情報が見つかりません,26.92,2022-07-30,cvpr-2023-1,PSNR
+K-Planes (hybrid),"K-Planes: Explicit Radiance Fields in Space, Time, and Appearance",引用情報が見つかりません,26.92,2023-01-24,cvpr-2023-1,PSNR
+Plenoxels + NeRFLiX,NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer,25,26.9,2023-03-13,cvpr-2023-1,PSNR
+K-Planes (explicit),"K-Planes: Explicit Radiance Fields in Space, Time, and Appearance",引用情報が見つかりません,26.78,2023-01-24,cvpr-2023-1,PSNR
+TensoRF,TensoRF: Tensorial Radiance Fields,1352,26.73,2023-01-24,,PSNR
+NeRF,NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis,引用情報が見つかりません,26.5,2022-07-30,eccv-2020-8,PSNR
+Plenoxels,"K-Planes: Explicit Radiance Fields in Space, Time, and Appearance",引用情報が見つかりません,26.29,2023-01-24,cvpr-2023-1,PSNR
+HyperReel,HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling,引用情報が見つかりません,26.2,2023-01-05,cvpr-2023-1,PSNR
+MobileNeRF,MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures,引用情報が見つかりません,25.91,2022-07-30,cvpr-2023-1,PSNR
+AdaNeRF,AdaNeRF: Adaptive Sampling for Real-time Rendering of Neural Radiance Fields,引用情報が見つかりません,25.7,2023-01-05,,PSNR
+SNeRG,MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures,引用情報が見つかりません,25.63,2022-07-30,cvpr-2023-1,PSNR
+Instant NGP,HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling,引用情報が見つかりません,25.6,2023-01-05,cvpr-2023-1,PSNR
+TermiNeRF,HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling,引用情報が見つかりません,23.6,2023-01-05,cvpr-2023-1,PSNR
+DoNeRF,HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling,引用情報が見つかりません,22.9,2023-01-05,cvpr-2023-1,PSNR

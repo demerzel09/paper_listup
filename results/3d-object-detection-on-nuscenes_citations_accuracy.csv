@@ -1,4 +1,4 @@
-methodology,title,citations,accuracy,date,proceeding,metric
+﻿methodology,title,citations,accuracy,date,proceeding,metric
 EA-LSS,EA-LSS: Edge-aware Lift-splat-shot Framework for 3D BEV Object Detection,27,0.78,2023-03-16,,NDS
 MegFusion,,2,0.77,2022-10-17,,NDS
 MMFusion-e,,0,0.77,2022-11-21,,NDS
@@ -162,4 +162,21 @@ SSN,SSN: Shape Signature Networks for Multi-class Object Detection from Point Cl
 Sy,Scene Understanding Networks for Autonomous Driving based on Around View Monitoring System,23,0.62,2022-06-24,,NDS
 luuminhquan_openpcdet,,引用情報が見つかりません,0.62,2021-04-12,,NDS
 PE-RVCN,,引用情報が見つかりません,0.62,2021-10-20,,NDS
-Team_Simon,,エラー,0.62,2022-02-09,,NDS
+Team_Simon,,28,0.62,2022-02-09,,NDS
+DEPE,,50,0.61,2023-02-20,,NDS
+yangfan293,,1,0.61,2022-12-21,,NDS
+pointpainting,,1071,0.61,2021-03-07,,NDS
+BEVDepth-pure,,引用情報が見つかりません,0.61,2022-06-23,,NDS
+s22kdist21,,引用情報が見つかりません,0.61,2022-11-19,,NDS
+jinkkun,,引用情報が見つかりません,0.61,2022-02-17,,NDS
+SSL_CP_Flow,,エラー,0.61,2022-04-22,,NDS
+HEU,,エラー,0.61,2021-04-15,,NDS
+PiFeNet,,エラー,0.61,2021-11-30,,NDS
+4DMVT-BEV,,引用情報が見つかりません,0.6,2022-09-05,,NDS
+obj_6,,0,0.6,2023-01-07,,NDS
+swin-b-nuimage-2key,,エラー,0.6,2023-01-10,,NDS
+obj_5,,0,0.6,2023-01-07,,NDS
+KPRDepth,,0,0.6,2022-12-08,,NDS
+liyinhao1234,,引用情報が見つかりません,0.6,2022-08-26,,NDS
+bevdepth,,609,0.6,2022-04-11,,NDS
+CenterPoint_mmdet3D,,エラー,0.6,2022-05-24,,NDS
