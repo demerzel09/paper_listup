@@ -1,4 +1,4 @@
-methodology,title,citations,accuracy,date,proceeding,metric
+﻿methodology,title,citations,accuracy,date,proceeding,metric
 TensoRF + NeRFLiX,NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer,25,27.39,2023-03-13,cvpr-2023-1,PSNR
 JAXNeRF,MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures,引用情報が見つかりません,26.92,2022-07-30,cvpr-2023-1,PSNR
 K-Planes (hybrid),"K-Planes: Explicit Radiance Fields in Space, Time, and Appearance",引用情報が見つかりません,26.92,2023-01-24,cvpr-2023-1,PSNR

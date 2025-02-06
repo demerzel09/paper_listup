@@ -1,0 +1,14 @@
+●got an unexpected keyword argument 'proxies'
+httpx を最新 0.28以降にすると、pg.FreeProxies()で
+エラーが出る
+https://stackoverflow.com/questions/79277656/error-post-got-an-unexpected-keyword-argument-proxies
+
+
+●Cannot Fetch from Google Scholarly.
+多分100回ぐらいsholalyをつかうとでてくる。おそらくGoogleにブロックされている。
+FreeProxiesはあまり役に立ってないらしい。
+https://github.com/scholarly-python-package/scholarly/issues/125
+https://github.com/scholarly-python-package/scholarly/issues/120
+
+公式ドキュメントプロキシ使い方の参考
+

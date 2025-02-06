@@ -1,4 +1,4 @@
-﻿methodology,title,citations,accuracy,date,proceeding,metric
+methodology,title,citations,accuracy,date,proceeding,metric
 SG-SSC,2D Semantic-Guided Semantic Scene Completion,引用情報が見つかりません,55.4,2024-09-12,international-journal-of-computer-vision-ijcv,mIoU
 SISNet,Semantic Scene Completion via Integrating Instances and Scene in-the-Loop,引用情報が見つかりません,52.4,2021-04-08,cvpr-2021-1,mIoU
 SPAwN (SUNCG pretraining),Data Augmented 3D Semantic Scene Completion with 2D Segmentation Priors,引用情報が見つかりません,49.9,2021-11-26,,mIoU
@@ -8,7 +8,7 @@ CCPNet (SUNCG pretraining),Cascaded Context Pyramid for Full-Resolution 3D Seman
 3DSketch,3D Sketch-aware Semantic Scene Completion via Semi-supervised Structure Prior,引用情報が見つかりません,41.1,2020-03-31,cvpr-2020-6,mIoU
 ForkNet (SUNCG pretraining),ForkNet: Multi-branch Volumetric Semantic Completion from a Single Depth Image,引用情報が見つかりません,37.1,2019-09-03,iccv-2019-10,mIoU
 "IPF-SPCNet: Semantic point completion network for 3D
-semantic scene completion",Semantic Point Completion Network for 3D Semantic Scene Completion,引用情報が見つかりません,35.1,2020-08-29,ecai-2020-8,mIoU
+semantic scene completion",Semantic Point Completion Network for 3D Semantic Scene Completion,33,35.1,2020-08-29,ecai-2020-8,mIoU
 Real-time semantic scene completion via feature aggregation and conditioned prediction,3D Semantic Scene Completion: a Survey,106,34.4,2021-03-12,,mIoU
 TS3D,Two Stream 3D Semantic Scene Completion,引用情報が見つかりません,34.1,2021-03-12,,mIoU
 EdgeNet (SUNCG pretraining),3D Semantic Scene Completion: a Survey,106,33.7,2021-03-12,,mIoU

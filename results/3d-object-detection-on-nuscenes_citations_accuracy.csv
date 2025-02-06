@@ -169,14 +169,156 @@ pointpainting,,1071,0.61,2021-03-07,,NDS
 BEVDepth-pure,,引用情報が見つかりません,0.61,2022-06-23,,NDS
 s22kdist21,,引用情報が見つかりません,0.61,2022-11-19,,NDS
 jinkkun,,引用情報が見つかりません,0.61,2022-02-17,,NDS
-SSL_CP_Flow,,エラー,0.61,2022-04-22,,NDS
-HEU,,エラー,0.61,2021-04-15,,NDS
-PiFeNet,,エラー,0.61,2021-11-30,,NDS
+SSL_CP_Flow,,引用情報が見つかりません,0.61,2022-04-22,,NDS
+HEU,,294,0.61,2021-04-15,,NDS
+PiFeNet,,18,0.61,2021-11-30,,NDS
 4DMVT-BEV,,引用情報が見つかりません,0.6,2022-09-05,,NDS
 obj_6,,0,0.6,2023-01-07,,NDS
-swin-b-nuimage-2key,,エラー,0.6,2023-01-10,,NDS
+swin-b-nuimage-2key,,引用情報が見つかりません,0.6,2023-01-10,,NDS
 obj_5,,0,0.6,2023-01-07,,NDS
 KPRDepth,,0,0.6,2022-12-08,,NDS
 liyinhao1234,,引用情報が見つかりません,0.6,2022-08-26,,NDS
 bevdepth,,609,0.6,2022-04-11,,NDS
-CenterPoint_mmdet3D,,エラー,0.6,2022-05-24,,NDS
+CenterPoint_mmdet3D,,引用情報が見つかりません,0.6,2022-05-24,,NDS
+Brave,,4046,0.59,2022-11-12,,NDS
+4DMVT-RCNN,,引用情報が見つかりません,0.59,2022-07-13,,NDS
+Focal-PETRv2e,,引用情報が見つかりません,0.59,2023-01-24,,NDS
+PETRv2-pure,,引用情報が見つかりません,0.59,2022-08-11,,NDS
+Sparse4d_vovnet99,,引用情報が見つかりません,0.59,2022-11-08,,NDS
+obj_4,,0,0.59,2022-12-15,,NDS
+obj_3,,3,0.59,2022-12-12,,NDS
+ghkbkhjbjn,,引用情報が見つかりません,0.59,2022-10-24,,NDS
+zhanghdgeh,,引用情報が見つかりません,0.59,2022-10-23,,NDS
+BEVDistill,BEVDistill: Cross-Modal BEV Distillation for Multi-View 3D Object Detection,75,0.59,2022-09-07,,NDS
+Reconfig PP v3,,11,0.59,2020-07-20,,NDS
+ECARX_BEVNet,,引用情報が見つかりません,0.59,2022-09-19,,NDS
+PointPillars + DSA,,75,0.59,2021-02-07,,NDS
+AGO-Net,AGO-Net: Association-Guided 3D Point Cloud Object Detection Network,36,0.59,2021-05-17,,NDS
+ATME,,212,0.58,2021-10-31,,NDS
+lgdnumber2,,76,0.58,2021-11-10,,NDS
+Radiant,,1137,0.58,2021-11-10,,NDS
+ayil1e,,引用情報が見つかりません,0.58,2022-08-14,,NDS
+DC-Sym-Residual,,引用情報が見つかりません,0.58,2022-10-22,,NDS
+bevdepth,,609,0.58,2022-11-09,,NDS
+Real4d,,20,0.58,2022-08-18,,NDS
+PETR v2,,356,0.58,2022-06-01,,NDS
+det22947,,引用情報が見つかりません,0.58,2023-02-25,,NDS
+ZongMu-CV,,引用情報が見つかりません,0.58,2022-11-22,,NDS
+Rover,,390,0.58,2022-08-28,,NDS
+RadarFormer,,12,0.58,2022-08-29,,NDS
+MV-BEVT,,引用情報が見つかりません,0.58,2022-08-01,,NDS
+DA-HydraFormer,,引用情報が見つかりません,0.58,2022-07-01,,NDS
+lyra,,384,0.58,2023-01-04,,NDS
+Inspur-MASTER-v2,,引用情報が見つかりません,0.58,2022-07-20,,NDS
+DAMEN,,44,0.58,2022-08-16,,NDS
+PointPainting,PointPainting: Sequential Fusion for 3D Object Detection,1072,0.58,2019-11-15,cvpr-2020-6,NDS
+Syn-Aug1,,引用情報が見つかりません,0.58,2022-06-23,,NDS
+HQUJIN,,7,0.58,2022-06-24,,NDS
+OA-BEV,OA-BEV: Bringing Object Awareness to Bird's-Eye-View Representation for Multi-Camera 3D Object Detection,10,0.57,2022-10-10,,NDS
+PolarFormer,PolarFormer: Multi-camera 3D Object Detection with Polar Transformer,181,0.57,2022-05-18,,NDS
+VoxelFormer,VoxelFormer: Bird's-Eye-View Feature Generation based on Dual-view Attention for Multi-view 3D Object Detection,6,0.57,2023-01-14,,NDS
+RCM_Fusion,,8,0.57,2023-02-17,,NDS
+Yinhaoli,,27,0.57,2022-08-20,,NDS
+VisionDP,,10,0.57,2022-07-25,,NDS
+BEVFormer,BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers,5,0.57,2022-03-31,,NDS
+BEVFormer,BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers,5,0.57,2022-03-10,,NDS
+VisionGroup,,0,0.57,2022-08-06,,NDS
+RC-BEVFusion,RC-BEVFusion: A Plug-In Module for Radar-Camera Bird's Eye View Feature Fusion,7,0.57,2023-01-25,,NDS
+wangzehao,,113,0.57,2022-08-25,,NDS
+SSN-v1,SSN: Shape Signature Networks for Multi-class Object Detection from Point Clouds,140,0.57,2019-09-15,eccv-2020-8,NDS
+BEVDet4D,BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection,347,0.57,2022-04-18,,NDS
+ASCNet-1-5s,,引用情報が見つかりません,0.57,2021-06-27,,NDS
+BEVDet4D,BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection,347,0.569,2022-03-31,,NDS
+CLIP-BEVFormer,CLIP-BEVFormer: Enhancing Multi-View Image-Based BEV Detector with Ground Truth Flow,5,0.562,2024-06-17,cvpr-2024-1,NDS
+boring_test_9,,引用情報が見つかりません,0.56,2022-06-20,,NDS
+TJU-IMMLab_CC,,引用情報が見つかりません,0.56,2022-09-04,,NDS
+ppyolo,,386,0.56,2022-08-29,,NDS
+v-test,,112,0.55,2023-01-19,,NDS
+dang,,4842,0.55,2022-09-29,,NDS
+llstm,,4653,0.55,2020-04-03,,NDS
+obj_1,,2,0.55,2022-11-28,,NDS
+BEV_align_fpn,,引用情報が見つかりません,0.55,2022-06-06,,NDS
+RVFUSION,,75,0.55,2022-11-10,,NDS
+X3KD,"X3KD: Knowledge Distillation Across Modalities, Tasks and Stages for Multi-Camera 3D Object Detection",32,0.55,2022-10-26,cvpr-2023-1,NDS
+Star-Optimus,,0,0.55,2023-01-31,,NDS
+joint,,1594,0.55,2022-11-15,,NDS
+CAM4D,,33,0.54,2022-06-02,,NDS
+PolarFormer-pure,,引用情報が見つかりません,0.54,2022-05-16,,NDS
+auto5D,,36,0.54,2022-06-01,,NDS
+DGroup,,3,0.54,2023-02-16,,NDS
+ZMfusion,,388,0.54,2022-10-28,,NDS
+BEVFormer-pure,,0,0.54,2022-03-12,,NDS
+convnext,,666,0.54,2022-10-18,,NDS
+Detr3d_RV,,25,0.54,2022-07-29,,NDS
+AutoD,,47,0.53,2022-05-24,,NDS
+Detr4d,,20,0.53,2022-09-02,,NDS
+puppyboy,,19,0.53,2022-03-28,,NDS
+CenterPoint-VID,,76,0.53,2019-11-03,,NDS
+DETNT,,44,0.53,2022-06-28,,NDS
+sina,,3112,0.53,2022-03-27,,NDS
+BEVerse,BEVerse: Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving,214,0.53,2022-05-15,,NDS
+zongmu-CV,,引用情報が見つかりません,0.52,2022-08-16,,NDS
+xin.lu.2,,276,0.52,2022-05-30,,NDS
+TransCAR,TransCAR: Transformer-based Camera-And-Radar Fusion for 3D Object Detection,14,0.52,2022-11-10,,NDS
+Spirit of Optimus,,5,0.52,2022-12-19,,NDS
+xixi,,21,0.52,2023-02-28,,NDS
+yunzhu,,51,0.51,2022-08-15,,NDS
+AD3D,,327,0.51,2022-05-12,,NDS
+RightOrange,,9,0.51,2022-12-13,,NDS
+gznyyb,,5,0.51,2022-09-05,,NDS
+Reconfig PP,,382,0.51,2019-12-12,,NDS
+PETR-e,,42,0.5,2022-03-08,,NDS
+CascadeNet,,16,0.5,2022-06-04,,NDS
+CFT-BEV3D,,5,0.5,2022-10-03,,NDS
+Inspur-MASTER-3D,,引用情報が見つかりません,0.5,2022-04-30,,NDS
+Inspur-MASTER-3D,,引用情報が見つかりません,0.5,2022-05-16,,NDS
+FudanZVG-TPD-e,,引用情報が見つかりません,0.49,2022-02-08,,NDS
+TESTB3DTV,,引用情報が見つかりません,0.49,2022-05-08,,NDS
+Graph-DETR3D,Graph-DETR3D: Rethinking Overlapping Regions for Multi-View 3D Object Detection,58,0.49,2022-03-23,,NDS
+PolarDETR,,66,0.49,2022-03-04,,NDS
+EPro-PnP-Det v2,EPro-PnP: Generalized End-to-End Probabilistic Perspective-n-Points for Monocular Object Pose Estimation,167,0.49,2023-03-22,,NDS
+ORA3D,ORA3D: Overlap Region Aware Multi-view 3D Object Detection,15,0.49,2022-05-29,,NDS
+EPro-PnP-Det v2,,1,0.49,2022-08-30,,NDS
+CFT-BEV3D,,5,0.49,2022-06-20,,NDS
+RCBEV,RCBEVDet: Radar-camera Fusion in Bird's Eye View for 3D Object Detection,24,0.49,2022-08-22,cvpr-2024-1,NDS
+ada-mmfusion,,引用情報が見つかりません,0.49,2021-08-19,,NDS
+RCF360,,13,0.49,2020-10-17,,NDS
+DD3D,,159,0.48,2021-06-15,,NDS
+BEVDet-Beta,,609,0.48,2022-03-02,,NDS
+DETR3D,DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries,764,0.48,2021-10-13,,NDS
+mmfusion,,8,0.48,2021-08-13,,NDS
+VBNET,,26,0.48,2019-06-13,,NDS
+Wang Qitai,,1,0.47,2022-10-23,,NDS
+ImmortalTracker,,54,0.47,2022-09-27,,NDS
+M^2BEV_Det&Seg,,引用情報が見つかりません,0.47,2022-02-25,,NDS
+M^2BEV_Det,,引用情報が見つかりません,0.47,2022-03-02,,NDS
+wintercoconut,,0,0.47,2022-03-23,,NDS
+BEV3D,,14,0.47,2022-01-13,,NDS
+yy,,238,0.47,2021-09-07,,NDS
+ufchaq72938,,引用情報が見つかりません,0.47,2022-08-21,,NDS
+PiCasso4D,,引用情報が見つかりません,0.47,2022-11-10,,NDS
+Daimler_RD_ASA-HD Frustum PointNet,,引用情報が見つかりません,0.47,2020-02-25,,NDS
+PETR_Radar_Fusion,,引用情報が見つかりません,0.46,2022-07-09,,NDS
+PegasusAI-B,,引用情報が見つかりません,0.46,2022-02-27,,NDS
+xin.lu,,4400,0.46,2022-04-02,,NDS
+SRCN3D,SRCN3D: Sparse R-CNN 3D for Compact Convolutional Multi-View 3D Object Detection and Tracking,3,0.46,2022-07-22,,NDS
+MAOLoss,,2,0.46,2021-09-07,,NDS
+Pinkie Pie,,0,0.46,2022-02-12,,NDS
+MG,MGTANet: Encoding Sequential LiDAR Points Using Long Short-Term Motion-Guided Temporal Attention for 3D Object Detection,22,0.46,2022-06-08,,NDS
+RepTrans,,8,0.46,2022-01-10,,NDS
+L-G,,365,0.46,2022-10-29,,NDS
+EPro-PnP-Det v1,EPro-PnP: Generalized End-to-End Probabilistic Perspective-n-Points for Monocular Object Pose Estimation,167,0.453,2022-03-24,cvpr-2022-1,NDS
+FTM3D,,4,0.45,2022-12-15,,NDS
+"PGD, Camera",,0,0.45,2021-07-24,,NDS
+IPD3D,,35,0.45,2021-11-12,,NDS
+PGD,Probabilistic and Geometric Depth: Detecting Objects in Perspective,298,0.45,2021-07-29,,NDS
+Vidar,,2,0.45,2022-01-13,,NDS
+CenterFusion,CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection,362,0.45,2020-09-28,,NDS
+CenterFusion,CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection,362,0.449,2020-11-10,,NDS
+PointPillars (ImageNet),nuScenes: A multimodal dataset for autonomous driving,6502,0.449,2019-03-26,cvpr-2020-6,NDS
+PointPillars (KITTI),nuScenes: A multimodal dataset for autonomous driving,6502,0.448,2019-03-26,cvpr-2020-6,NDS
+PointPillars,PointPillars: Fast Encoders for Object Detection from Point Clouds,4217,0.442,2019-03-26,cvpr-2019-6,NDS
+"M^2BEV, Camera",,42,0.44,2021-11-11,,NDS
+FCOS3D-DSG,,引用情報が見つかりません,0.44,2023-02-10,,NDS
+tsu-mdf,,引用情報が見つかりません,0.44,2021-12-14,,NDS
+

@@ -1,0 +1,107 @@
+methodology,title,citations,accuracy,date,proceeding,metric
+PointGST,Parameter-Efficient Fine-Tuning in Spectral Domain for Point Cloud Learning,1,95.3,2024-10-10,,Overall Accuracy
+Mamba3D + Point-MAE,Mamba3D: Enhancing Local Features for 3D Point Cloud Analysis via State Space Model,19,95.1,2024-04-23,,Overall Accuracy
+ReCon++,ShapeLLM: Universal 3D Object Understanding for Embodied Interaction,38,95.0,2024-02-27,,Overall Accuracy
+PointGPT,PointGPT: Auto-regressively Generative Pre-training from Point Clouds,88,94.9,,neurips-2023-11,Overall Accuracy
+point2vec,Point2Vec for Self-Supervised Representation Learning on Point Clouds,32,94.8,2023-03-01,,Overall Accuracy
+ULIP + PointMLP,"ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding",232,94.7,2022-12-10,cvpr-2023-1,Overall Accuracy
+ReCon,Contrast with Reconstruct: Contrastive 3D Representation Learning Guided by Generative Pretraining,121,94.7,2023-02-05,,Overall Accuracy
+RepSurf-U,Surface Representation for Point Clouds,214,94.7,2022-03-01,cvpr-2022-1,Overall Accuracy
+PointMLP+HyCoRe,Rethinking the compositionality of point clouds through regularization in the hyperbolic space,38,94.5,2022-09-21,,Overall Accuracy
+PointMLP,Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework,695,94.5,2022-02-15,iclr-2022-4,Overall Accuracy
+Point-FEMAE,Towards Compact 3D Representations via Point Feature Enhancement Masked Autoencoders,18,94.5,2023-12-17,,Overall Accuracy
+PointNet2+PointCMT,Let Images Give You More:Point Cloud Cross-Modal Training for Shape Analysis,32,94.4,2022-10-09,,Overall Accuracy
+IDPT,Instance-aware Dynamic Prompt Tuning for Pre-trained Point Cloud Models,41,94.4,2023-04-14,iccv-2023-1,Overall Accuracy
+IAE + DGCNN,Implicit Autoencoder for Point-Cloud Self-Supervised Representation Learning,62,94.2,2022-01-03,iccv-2023-1,Overall Accuracy
+PTv2,Point Transformer V2: Grouped Vector Attention and Partition-based Pooling,368,94.2,2022-10-11,,Overall Accuracy
+CurveNet,Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis,346,94.2,2021-05-04,iccv-2021-1,Overall Accuracy
+ExpPoint-MAE,ExpPoint-MAE: Better interpretability and performance for self-supervised point cloud transformers,3,94.2,2023-06-19,,Overall Accuracy
+PCP-MAE,PCP-MAE: Learning to Predict Centers for Point Masked Autoencoders,2,94.2,2024-08-16,,Overall Accuracy
+RPNet,Learning Inner-Group Relations on Point Clouds,76,94.1,2021-08-27,iccv-2021-1,Overall Accuracy
+ULIP + PointBERT,"ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding",232,94.1,2022-12-10,cvpr-2023-1,Overall Accuracy
+Point-RAE,Regress Before Construct: Regress Autoencoder for Point Cloud Self-supervised Learning,9,94.1,2023-09-25,,Overall Accuracy
+Point-JEPA (voting),Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud,5,94.1±0.1,2024-04-25,,Overall Accuracy
+DeLA,Decoupled Local Aggregation for Point Cloud Learning,18,94.0,2023-08-31,,Overall Accuracy
+P2P,P2P: Tuning Pre-trained Image Models for Point Cloud Analysis with Point-to-Pixel Prompting,95,94.0,2022-08-04,,Overall Accuracy
+PointNeXt,PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies,649,94.0,2022-06-09,,Overall Accuracy
+Point Voxel Transformer,PVT: Point-Voxel Transformer for Point Cloud Learning,86,94.0,2021-08-13,,Overall Accuracy
+Point-MAE,Masked Autoencoders for Point Cloud Self-supervised Learning,522,94.0,2022-03-13,,Overall Accuracy
+Point-M2AE,Point-M2AE: Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training,261,94.0,2022-05-28,,Overall Accuracy
+PointMLS,ModelNet-O: A Large-Scale Synthetic Dataset for Occlusion-Aware Point Cloud Classification,3,94.0,2023-03-07,,Overall Accuracy
+3D-JEPA,3D-JEPA: A Joint Embedding Predictive Architecture for 3D Self-Supervised Representation Learning,0,94.0,2024-09-24,,Overall Accuracy
+MKConv,MKConv: Multidimensional Feature Representation for Point Cloud Analysis,20,94.0,2023-06-02,,Overall Accuracy
+SimpleView,Revisiting Point Cloud Classification with a Simple and Effective Baseline,4,93.9,2021-01-01,,Overall Accuracy
+PAConv,PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds,517,93.9,2021-03-26,cvpr-2021-1,Overall Accuracy
+SimpleView-DGCNN,Revisiting Point Cloud Shape Classification with a Simple and Effective Baseline,271,93.9,2021-06-09,,Overall Accuracy
+PointMAE+PPT,Positional Prompt Tuning for Efficient 3D Representation Learning,0,93.88,2024-08-21,,Overall Accuracy
+MVTN,MVTN: Multi-View Transformation Network for 3D Shape Recognition,240,93.8,2020-11-26,iccv-2021-1,Overall Accuracy
+Feature Geometric Net (FG-Net),FG-Net: Fast Large-Scale LiDAR Point Clouds Understanding Network Leveraging Correlated Feature Mining and Geometric-Aware Modelling,65,93.8,2020-12-17,,Overall Accuracy
+GBNet,Geometric Back-projection Network for Point Cloud Classification,268,93.8,2019-11-28,,Overall Accuracy
+DeltaConv,DeltaConv: Anisotropic Operators for Geometric Deep Learning on Point Clouds,41,93.8,2021-11-16,,Overall Accuracy
+GDANet,Learning Geometry-Disentangled Representation for Complementary Understanding of 3D Object Point Cloud,130,93.8,2020-12-20,,Overall Accuracy
+Point-BERT,Point-BERT: Pre-training 3D Point Cloud Transformers with Masked Point Modeling,723,93.8,2021-11-29,cvpr-2022-1,Overall Accuracy
+APES (global-based downsample),Attention-based Point Cloud Edge Sampling,61,93.8,2023-02-28,cvpr-2023-1,Overall Accuracy
+Point-JEPA (no voting),Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud,5,93.8±0.2,2024-04-25,,Overall Accuracy
+Point-PN,Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis,82,93.8,2023-03-14,,Overall Accuracy
+PointSCNet,PointSCNet: Point Cloud Structure and Correlation Learning Based on Space Filling Curve-Guided Sampling,11,93.7,2021-12-14,,Overall Accuracy
+PRA-Net,PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis,155,93.7,2021-12-09,,Overall Accuracy
+PointTransformer,Point Transformer,2342,93.7,2020-12-16,iccv-2021-1,Overall Accuracy
+DualMLP,DualMLP: a two-stream fusion model for 3D point cloud classification,4,93.7,2023-10-10,the-visual-computer-2023-10,Overall Accuracy
+PointMixer,PointMixer: MLP-Mixer for Point Cloud Understanding,112,93.6,2021-11-22,,Overall Accuracy
+DeepGCN,DeepGCNs: Making GCNs Go as Deep as CNNs,3,93.6,2019-10-15,,Overall Accuracy
+LCPFormer,LCPFormer: Towards Effective 3D Point Cloud Analysis via Local Context Propagation in Transformers,62,93.6,2022-10-23,,Overall Accuracy
+DGCNN + SageMix,SageMix: Saliency-Guided Mixup for Point Clouds,31,93.6,2022-10-13,,Overall Accuracy
+PointVector-S,PointVector: A Vector Representation In Point Cloud Analysis,43,93.5,2022-05-21,cvpr-2023-1,Overall Accuracy
+RSMix,Regularization Strategy for Point Cloud via Rigidly Mixed Sample,93,93.5,2021-02-03,cvpr-2021-1,Overall Accuracy
+PointConT,Point Cloud Classification Using Content-based Transformer via Clustering in Feature Space,55,93.5,2023-03-08,,Overall Accuracy
+APES (local-based downsample),Attention-based Point Cloud Edge Sampling,61,93.5,2023-02-28,cvpr-2023-1,Overall Accuracy
+DSPoint,DSPoint: Dual-scale Point Cloud Recognition with High-frequency Fusion,34,93.5,2021-11-19,,Overall Accuracy
+ULIP + PointNet++(ssg),"ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding",234,93.4,2022-12-10,cvpr-2023-1,Overall Accuracy
+PointCutmix,PointCutMix: Regularization Strategy for Point Cloud Classification,124,93.4,2021-01-05,,Overall Accuracy
+3DMedPT,3D Medical Point Transformer: Introducing Convolution to Attention Networks for Medical Point Cloud Analysis,54,93.4,2021-12-09,,Overall Accuracy
+DGCNN + MD,Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes,30,93.39,2021-09-01,,Overall Accuracy
+OGNet + MD,Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes,30,93.31,2021-09-01,,Overall Accuracy
+OG-Net-Small,Parameter-Efficient Person Re-identification in the 3D Space,76,93.3,2020-06-08,,Overall Accuracy
+PointStack,Advanced Feature Learning on Point Clouds using Multi-resolution Features and Learnable Pooling,39,93.3,2022-05-20,,Overall Accuracy
+PointNet++ + SageMix,SageMix: Saliency-Guided Mixup for Point Clouds,31,93.3,2022-10-13,,Overall Accuracy
+PointASNL,PointASNL: Robust Point Clouds Processing using Nonlocal Neural Networks with Adaptive Sampling,721,93.2,2020-03-01,cvpr-2020-6,Overall Accuracy
+Point Cloud Transformer,PCT: Point cloud transformer,1724,93.2,2020-12-17,,Overall Accuracy
+DRNet,Dense-Resolution Network for Point Cloud Classification and Segmentation,135,93.1,2020-05-14,,Overall Accuracy
+ShellNet,ShellNet: Efficient Point Cloud Convolutional Neural Networks using Concentric Shells Statistics,465,93.1,2019-08-17,iccv-2019-10,Overall Accuracy
+STRL + DGCNN,Spatio-temporal Self-Supervised Representation Learning for 3D Point Clouds,233,93.1,2021-09-01,iccv-2021-1,Overall Accuracy
+PatchAugment+DGCNN,,27,93.1,2021-10-25,,Overall Accuracy
+PointManifold,PointManifold: Using Manifold Learning for Point Cloud Classification,9,93.0,2020-10-14,,Overall Accuracy
+InterpCNN,Interpolated Convolutional Networks for 3D Point Cloud Understanding,273,93.0,2019-08-13,iccv-2019-10,Overall Accuracy
+DGCNN,Dynamic Graph CNN for Learning on Point Clouds,6997,92.9,2018-01-24,,Overall Accuracy
+KPConv,KPConv: Flexible and Deformable Convolution for Point Clouds,3144,92.9,2019-04-18,iccv-2019-10,Overall Accuracy
+RS-CNN,Relation-Shape Convolutional Neural Network for Point Cloud Analysis,1151,92.9,2019-04-16,cvpr-2019-6,Overall Accuracy
+ASSANet,ASSANet: An Anisotropic Separable Set Abstraction for Efficient Point Cloud Representation Learning,92,92.9,2021-10-20,neurips-2021-12,Overall Accuracy
+Point-M2AE-SVM,Point-M2AE: Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training,264,92.9,2022-05-28,,Overall Accuracy
+Point Transformer,Point Transformer,2342,92.8,2020-11-02,,Overall Accuracy
+A-CNN,A-CNN: Annularly Convolutional Neural Networks on Point Clouds,347,92.6,2019-04-16,cvpr-2019-6,Overall Accuracy
+P2Sequence,Point2Sequence: Learning the Shape Representation of 3D Point Clouds with an Attention-based Sequence to Sequence Network,367,92.6,2018-11-06,,Overall Accuracy
+Point-TnT,Points to Patches: Enabling the Use of Self-Attention for 3D Shape Recognition,37,92.6,2022-04-08,,Overall Accuracy
+PointConv,PointConv: Deep Convolutional Networks on 3D Point Clouds,2053,92.5,2018-11-17,cvpr-2019-6,Overall Accuracy
+PolyNet,PolyNet: Polynomial Neural Network for 3D Shape Recognition with PolyShape Representation,21,92.42,2021-10-15,,Overall Accuracy
+SpiderCNN,SpiderCNN: Deep Learning on Point Sets with Parameterized Convolutional Filters,1003,92.4,2018-03-30,eccv-2018-9,Overall Accuracy
+PCNN,Point Convolutional Neural Networks by Extension Operators,617,92.3,2018-03-27,,Overall Accuracy
+PointCNN,PointCNN: Convolution On $\mathcal{X}$-Transformed Points,1,92.2,2018-12-01,neurips-2018,Overall Accuracy
+Point-PlaneNet,Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis,39,92.1,2020-05-01,,Overall Accuracy
+SpecGCN,Local Spectral Graph Convolution for Point Set Feature Learning,447,92.1,2018-03-15,eccv-2018-9,Overall Accuracy
+DynamicScale,Dynamic Local Geometry Capture in 3D PointCloud Classification,17,92.1,2021-10-19,ieee-4th-international-conference-on,Overall Accuracy
+PointGrid,PointGrid: A Deep Network for 3D Shape Understanding,477,92.0,2018-06-01,cvpr-2018-6,Overall Accuracy
+Kd-Net,Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models,1256,91.8,2017-04-04,iccv-2017-10,Overall Accuracy
+"G3DNet-18 MLP, Fine-Tuned, Vote",General-Purpose Deep Point Cloud Feature Extractor,52,91.7,2018-03-12,ieee-winter-conference-on-applications-of-2,Overall Accuracy
+3DMFV-Net,3D Point Cloud Classification and Segmentation using 3D Modified Fisher Vector Representation for Convolutional Neural Networks,101,91.6,2017-11-22,,Overall Accuracy
+CrossMoCo,CrossMoCo: Multi-modal Momentum Contrastive Learning for Point Cloud,6,91.49,2023-06-08,20th-conference-on-robots-and-vision-crv-2023,Overall Accuracy
+SO-Net,SO-Net: Self-Organizing Network for Point Cloud Analysis,1169,90.9,2018-03-12,cvpr-2018-6,Overall Accuracy
+PointNet++,PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space,13501,90.7,2017-06-07,neurips-2017-12,Overall Accuracy
+Kd-net,Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models,1256,90.6,2017-04-04,iccv-2017-10,Overall Accuracy
+PointNet + SageMix,SageMix: Saliency-Guided Mixup for Point Clouds,31,90.3,2022-10-13,,Overall Accuracy
+MVCNN,Multi-view Convolutional Neural Networks for 3D Shape Recognition,4322,90.1,2015-05-05,iccv-2015-12,Overall Accuracy
+PointNet,PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space,13501,89.2,2016-12-02,neurips-2017-12,Overall Accuracy
+Subvolume,Volumetric and Multi-View CNNs for Object Classification on 3D Data,2020,89.2,2016-04-12,cvpr-2016-6,Overall Accuracy
+ECC,Dynamic Edge-Conditioned Filters in Convolutional Neural Networks on Graphs,1588,87.4,2017-04-10,cvpr-2017-7,Overall Accuracy
+VRN (multiple views),Generative and Discriminative Voxel Modeling with Convolutional Neural Networks,706,91.33,2016-08-15,,Overall Accuracy
+3DShapeNets,3D ShapeNets: A Deep Representation for Volumetric Shapes,7134,77.3,2014-06-22,cvpr-2015-6,Overall Accuracy
+Perceiver,Perceiver: General Perception with Iterative Attention,1054,14.3,2021-03-04,,Overall Accuracy

@@ -1,4 +1,4 @@
-﻿methodology,title,citations,accuracy,date,proceeding,metric
+methodology,title,citations,accuracy,date,proceeding,metric
 PTv3+PPT,"Point Transformer V3: Simpler, Faster, Stronger",146,75.5%,2023-12-15,,test mIoU
 UniSeg,UniSeg: A Unified Multi-Modal LiDAR Segmentation Network and the OpenPCSeg Codebase,29,75.2%,2023-09-11,iccv-2023-1,test mIoU
 SphereFormer,Spherical Transformer for LiDAR-based 3D Recognition,147,74.8%,2023-03-22,cvpr-2023-1,test mIoU
@@ -18,4 +18,25 @@ TORNADONet-HiRes,TORNADO-Net: mulTiview tOtal vaRiatioN semAntic segmentation wi
 NAPL,Number-Adaptive Prototype Learning for 3D Point Cloud Semantic Segmentation,15,61.6%,2022-10-18,,test mIoU
 Meta-RangeSeg,Meta-RangeSeg: LiDAR Sequence Semantic Segmentation Using Multiple Feature Aggregation,35,61.0%,2022-02-27,,test mIoU
 BAAF-Net,Semantic Segmentation for Real Point Cloud Scenes via Bilateral Augmentation and Adaptive Fusion,268,59.9%,2021-03-12,cvpr-2021-1,test mIoU
-SalsaNext,"SalsaNext: Fast, Uncertainty-aware Semantic Segmentation of LiDAR Point Clouds for Autonomous Driving",エラー,59.5%,2020-03-07,,test mIoU
+SalsaNext,"SalsaNext: Fast, Uncertainty-aware Semantic Segmentation of LiDAR Point Clouds for Autonomous Driving",514,59.5%,2020-03-07,,test mIoU
+KPConv,KPConv: Flexible and Deformable Convolution for Point Clouds,3145,58.8%,2019-04-18,iccv-2019-10,test mIoU
+PolarNet,PolarNet: An Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation,579,57.2%,2020-03-31,cvpr-2020-6,test mIoU
+FPS-Net,FPS-Net: A Convolutional Fusion Network for Large-Scale LiDAR Point Cloud Segmentation,58,57.1%,2021-03-01,,test mIoU
+SqueezeSegV3,SqueezeSegV3: Spatially-Adaptive Convolution for Efficient Point-Cloud Segmentation,500,55.9%,2020-04-03,eccv-2020-8,test mIoU
+3D-MiniNet,3D-MiniNet: Learning a 2D Representation from Point Clouds for Fast and Efficient 3D LIDAR Semantic Segmentation,167,55.8%,2020-02-25,,test mIoU
+MPF,Multi Projection Fusion for Real-time Semantic Segmentation of 3D LiDAR Point Clouds,56,55.5%,2020-11-03,,test mIoU
+MINet,Multi-scale Interaction for Real-time LiDAR Data Segmentation on an Embedded Platform,90,55.2%,2020-08-20,,test mIoU
+RandLA-Net,RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds,1989,53.9%,2019-11-25,cvpr-2020-6,test mIoU
+FG-Net,FG-Net: Fast Large-Scale LiDAR Point Clouds Understanding Network Leveraging Correlated Feature Mining and Geometric-Aware Modelling,66,53.8%,2020-12-17,,test mIoU
+LatticeNet,LatticeNet: Fast Point Cloud Segmentation Using Permutohedral Lattices,119,52.9%,2019-12-12,,test mIoU
+RangeNet++,RangeNet++: Fast and Accurate LiDAR Semantic Segmentation,1249,52.2%,2019-11-04,ieeersj-international-conference-on,test mIoU
+Darknet53,SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences,2203,49.9%,2019-04-02,iccv-2019-10,test mIoU
+SqueezeSegV2,SqueezeSegV2: Improved Model Structure and Unsupervised Domain Adaptation for Road-Object Segmentation from a LiDAR Point Cloud,814,39.7%,2018-09-22,,test mIoU
+TangentConv,Tangent Convolutions for Dense Prediction in 3D,684,35.9%,2018-07-06,cvpr-2018-6,test mIoU
+SqueezeSeg,SqueezeSeg: Convolutional Neural Nets with Recurrent CRF for Real-Time Road-Object Segmentation from 3D LiDAR Point Cloud,1110,29.5%,2017-10-19,,test mIoU
+PointNet++,PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space,13501,20.1%,2017-06-07,neurips-2017-12,test mIoU
+SPLATNet,SPLATNet: Sparse Lattice Networks for Point Cloud Processing,900,18.4%,2018-02-22,cvpr-2018-6,test mIoU
+SPGraph,Large-scale Point Cloud Semantic Segmentation with Superpoint Graphs,1602,17.4%,2017-11-27,cvpr-2018-6,test mIoU
+PointNet,PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space,13501,14.6%,2016-12-02,neurips-2017-12,test mIoU
+PPT+SparseUNet,Towards Large-scale 3D Representation Learning with Multi-dataset Point Prompt Training,34,71.4%,2023-08-18,cvpr-2024-1,test mIoU
+OA-CNNs,OA-CNNs: Omni-Adaptive Sparse CNNs for 3D Semantic Segmentation,20,70.6%,2024-03-21,cvpr-2024-1,test mIoU

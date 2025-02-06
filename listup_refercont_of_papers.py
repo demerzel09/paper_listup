@@ -14,9 +14,12 @@ from scholarly import scholarly, ProxyGenerator
 API_TOKEN = '0909acbe65c81aaef99478e9197aa4b7cb2d2992' #'your_paperswithcode_api_token'
 
 task_list = [
-    # ['3d-object-detection'          ,'nuscenes'     ,'NDS'],    
-    ['3d-semantic-scene-completion' ,'nyuv2'        ,'mIoU'],
-    ['novel-view-synthesis'         ,'llff'         ,'PSNR'],
+['3d-semantic-segmentation'     ,'semantickitti','mIoU'],
+['3d-semantic-segmentation'     ,'kitti-360'    ,'mIoU'],
+# 済    ['3d-point-cloud-classification','modelnet40'   ,'Overrall-Accuracy'],    
+# 済    ['3d-semantic-scene-completion' ,'nyuv2'        ,'mIoU'],
+# 済    ['3d-object-detection'          ,'nuscenes'     ,'NDS'],    
+# 済    ['novel-view-synthesis'         ,'llff'         ,'PSNR'],
 # 済    ['semantic-segmentation'        ,'s3dis-area5'  ,'mIoU'],
 # 済    ['lidar-semantic-segmentation'  ,'nuscenes'     ,'mIoU'],
 # 済    ['3d-multi-object-tracking'     ,'nuscenes'     ,'AMOTA'],
@@ -24,7 +27,6 @@ task_list = [
 # 済    ['point-cloud-registration'     ,'eth-trained-on-3dmatch','Feature Matching Recall'],
 #     ['3d-object-detection'          ,'scannetv2'    ,'mAP'],
 #     ['3d-object-detection'          ,'sun-rgbd-val' ,'mAP'],
-#     ['3d-point-cloud-classification','modelnet40'   ,'Overrall-Accuracy'],
 #     ['3d-point-cloud-classification','scanobjectnN' ,'NDS'],
 #     ['semantic-segmentation'        ,'scannet'      ,'mIoU'],
 #     ['semantic-segmentation'        ,'s3dis'        ,'Mean IoU'],
@@ -48,7 +50,6 @@ task_list = [
 #     ['generalizable-novel-view-synthesis' ,'zju-mocap'    ,'PSNR'], #少ないので手動
 #     ['semantic-segmentation'        ,'semantic3d'   ,'mIoU'],
 #     ['3d-semantic-segmentation'     ,'toronto-3d'   ,'mIoU'],
-#     ['3d-semantic-segmentation'     ,'kitti-360'    ,'mIoU'],
 #     ['lidar-semantic-segmentation'  ,'paris-lille-3d','mIoU'],
 # ]
 
@@ -175,7 +176,7 @@ def output_csv(client, task_id, dataset_id):
             # 引用数の取得
             if citations is None or citations=='エラー':
                 try:
-                    time.sleep(35.0)
+                    time.sleep(45.0)
                     keyword = paper_title if paper_title is not None else methodology
                     search_query = scholarly.search_pubs(keyword)
                     paper_scholarly = next(search_query, None)

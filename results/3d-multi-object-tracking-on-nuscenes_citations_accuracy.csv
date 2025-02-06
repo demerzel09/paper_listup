@@ -1,4 +1,4 @@
-methodology,title,citations,accuracy,date,proceeding,metric
+﻿methodology,title,citations,accuracy,date,proceeding,metric
 MCTrack,MCTrack: A Unified 3D Multi-Object Tracking Framework for Autonomous Driving,1,0.763,2024-09-23,,AMOTA
 Fast-Poly,Fast-Poly: A Fast Polyhedral Framework For 3D Multi-Object Tracking,4,0.758,2024-03-18,,AMOTA
 Poly-MOT,,28,0.754,2023-03-01,,AMOTA
